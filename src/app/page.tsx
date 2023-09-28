@@ -1,10 +1,10 @@
-import Image from "next/image";
-import Navbar from "./Navbar";
-
-export default function Home() {
+import Navbar from "./components/Navbar";
+import About from "./components/About";
+export default function HomePage() {
   return (
     <div>
       <Navbar />
+      <About />
     </div>
   )
 }

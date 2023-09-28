@@ -4,9 +4,9 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false;
 
-import { Titillium_Web } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 
-const titillium_Web =  Titillium_Web({
+const roboto =  Roboto({
   weight: '400',
   subsets: ['latin'],
   display: 'swap',
@@ -24,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html  data-theme="dark" lang="en">
-      <body className={titillium_Web.className}>{children}</body>
+      <body className={roboto.className}>{children}</body>
     </html>
   )
 }
