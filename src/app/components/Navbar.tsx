@@ -8,7 +8,7 @@ import { faCodepen } from "@fortawesome/free-brands-svg-icons";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-300 pr-12 ">
+    <div className="navbar bg-base-300 pr-12 fixed top-0 w-full z-50">
         <div className="navbar-start">
           <div className="dropdown">
           <label className="btn btn-ghost lg:hidden swap swap-rotate">

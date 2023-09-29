@@ -1,10 +1,8 @@
 import React from 'react'
 import { Carousel } from './Carousel'
-import Typewriter from './Typewriter'
 const About = () => {
   return (
     <section id="about" className="about text-base justify-center items-center flex">
-      {/* <Typewriter /> */}
       <div className="container ">
         <div className="section-title">
           <h2 className="other-header">About</h2>
