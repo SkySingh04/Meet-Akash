@@ -10,8 +10,8 @@ const Hero = () => {
   return (
     <div className={prata.className}>
     <div className="h-screen bg-hero-bg pt-40  bg-opacity-100 flex flex-col justify-center items-center">
-        <p className="text-5xl font-bold py-4">Hi, I'm Akash!</p>
-        <p className="text-5xl font-bold py-4">I'm a</p>
+        <p className="text-5xl font-bold py-4 inline">Hi, I'm Akash!</p>
+        <p className="text-5xl font-bold py-4 inline">I'm a</p>
         <Typewriter  />
       
     </div>

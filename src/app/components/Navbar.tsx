@@ -20,27 +20,27 @@ const Navbar = () => {
               <li><a className="btn btn-ghost normal-case" href="https://www.linkedin.com/in/akash-singh-a57081253/"><FontAwesomeIcon
         icon={faLinkedin}
         className="fas fa-check"
-        style={{ color: "grey", fontSize: 28 }}
+        style={{ color: "grey", fontSize: 25 }}
       /></a></li>
               <li><a className="btn btn-ghost normal-case text-xl" href="https://github.com/Akash-Singh04"><FontAwesomeIcon
         icon={faGithub}
         className="fas fa-check"
-        style={{ color: "grey", fontSize: 28 }}
+        style={{ color: "grey", fontSize: 25 }}
       /></a> </li>
               <li><a className="btn btn-ghost normal-case text-xl" href="https://instagram.com/kind.of.akash"><FontAwesomeIcon
         icon={faInstagram}
         className="fas fa-check"
-        style={{ color: "grey", fontSize: 28 }}
+        style={{ color: "grey", fontSize: 25 }}
       /></a> </li>        
               <li><a className="btn btn-ghost normal-case text-xl" href="https://twitter.com/Kind_Of_Akash"><FontAwesomeIcon
         icon={faTwitter}
         className="fas fa-check"
-        style={{ color: "grey", fontSize: 28 }}
+        style={{ color: "grey", fontSize: 25 }}
       /></a> </li>        
               <li><a className="btn btn-ghost normal-case text-xl" href="https://www.codechef.com/users/akashsingh04"><FontAwesomeIcon
         icon={faCodepen}
         className="fas fa-check"
-        style={{ color: "grey", fontSize: 28 }}
+        style={{ color: "grey", fontSize: 25 }}
       /></a> </li>        
             </ul> 
 
@@ -49,27 +49,27 @@ const Navbar = () => {
       <a className="btn btn-ghost normal-case" href="https://www.linkedin.com/in/akash-singh-a57081253/"><FontAwesomeIcon
         icon={faLinkedin}
         className="fas fa-check"
-        style={{ color: "grey", fontSize: 28 }}
+        style={{ color: "grey", fontSize: 25 }}
       /></a>
       <a className="btn btn-ghost normal-case text-xl" href="https://github.com/Akash-Singh04"><FontAwesomeIcon
         icon={faGithub}
         className="fas fa-check"
-        style={{ color: "grey", fontSize: 28 }}
+        style={{ color: "grey", fontSize: 25 }}
       /></a> 
       <a className="btn btn-ghost normal-case text-xl" href="https://instagram.com/kind.of.akash"><FontAwesomeIcon
         icon={faInstagram}
         className="fas fa-check"
-        style={{ color: "grey", fontSize: 28 }}
+        style={{ color: "grey", fontSize: 25 }}
       /></a> 
       <a className="btn btn-ghost normal-case text-xl" href="https://twitter.com/Kind_Of_Akash"><FontAwesomeIcon
         icon={faTwitter}
         className="fas fa-check"
-        style={{ color: "grey", fontSize: 28 }}
+        style={{ color: "grey", fontSize: 25 }}
       /></a> 
       <a className="btn btn-ghost normal-case text-xl" href="https://www.codechef.com/users/akashsingh04"><FontAwesomeIcon
         icon={faCodepen}
         className="fas fa-check"
-        style={{ color: "grey", fontSize: 28 }}
+        style={{ color: "grey", fontSize: 25 }}
       /></a> 
   </div>
   </div>

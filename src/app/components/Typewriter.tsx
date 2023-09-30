@@ -1,7 +1,7 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 
-const words = ["Software Engineer", "Full Stack Developer", "Public Speaker" , "ML Enthusiast" ];
+const words = ["Software Engineer", "Full Stack Developer", "Public Speaker" , "ML Enthusiast"  ];
 
 
 function Typewriter() {
@@ -27,7 +27,7 @@ function Typewriter() {
       }
     };
 
-    const typingInterval = setInterval(type, 100);
+    const typingInterval = setInterval(type, 65);
 
     return () => {
       clearInterval(typingInterval);
@@ -35,9 +35,8 @@ function Typewriter() {
   }, [currentWordIndex, currentText, isDeleting]);
 
   return (
-    <div >
-      
-      <p id="typewriter" className="py-4 w-full text-bold text-5xl text-white italic">{currentText}</p>
+    <div className='inline' >
+      <p id="typewriter" className="py-4 w-full text-bold text-5xl italic">{currentText}</p>
     </div>
   );
 }

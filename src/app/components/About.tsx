@@ -1,5 +1,6 @@
 import React from 'react'
 import { Carousel } from './Carousel'
+import Cards from './Cards/page'
 const About = () => {
   return (
     <section id="about" className="about text-base justify-center items-center flex">
@@ -13,7 +14,8 @@ const About = () => {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 justify-center">
           <div className="lg:col-span-1 w-full ml-20"  data-aos="fade-right">
-            <Carousel />
+            {/* <Carousel /> */}
+            <Cards />
           </div>
           <div className="lg:col-span-1 pt-4 lg:pt-0 content" data-aos="fade-left">
             <h3>Aspiring Software Engineer | Full Stack Web Developer | Student</h3>

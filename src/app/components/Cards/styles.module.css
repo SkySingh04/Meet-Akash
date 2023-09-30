@@ -1,0 +1,83 @@
+.channel-card-group {
+    margin-left: 40%;
+    padding-bottom: 25%;
+  }
+  
+  .channel-card-group,
+  .channel-card {
+    aspect-ratio: 5/7;
+  }
+  
+  .channel-card-group,
+  .big-channel-card {
+    width: 15%;
+  }
+  
+  .channel-card {
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    transition: transform 800ms cubic-bezier(0.05, 0.43, 0.25, 0.95);
+  }
+  
+  .big-channel-card {
+    border-radius: 1vmin;
+  }
+  
+  .little-channel-card {
+    width: 5%;
+    border-radius: 2vmin;
+    top: 55%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* The Transformations */
+  .big-channel-card:nth-child(2) {
+    transform: translateX(-10%) rotate(-1deg);
+  }
+  
+  .big-channel-card:nth-child(4) {
+    transform: rotate(2deg);
+  }
+  
+  .big-channel-card:nth-child(6) {
+    transform: translateX(-6%) rotate(-3deg);
+  }
+  
+  .big-channel-card:nth-child(8) {
+    transform: translateX(10%, 3%) rotate(5deg);
+  }
+  
+  /* Hover Effects */
+  /* Card Splits */
+  .channel-card-group:hover > .big-channel-card:nth-child(2) {
+    transform: translate(-95%, 16%) rotate(-24deg);
+  }
+  
+  .channel-card-group:hover > .big-channel-card:nth-child(4) {
+    transform: translate(-45%, 8%) rotate(-8deg);
+  }
+  
+  .channel-card-group:hover > .big-channel-card:nth-child(6) {
+    transform: translate(45%, 8%) rotate(8deg);
+  }
+  
+  .channel-card-group:hover > .big-channel-card:nth-child(8) {
+    transform: translate(95%, 16%) rotate(24deg);
+  }
+  
+  .channel-card-group:hover > .little-channel-card:nth-child(1) {
+    transform: translate(210%, -160%) rotate(-15deg);
+  }
+  
+  .channel-card-group:hover > .little-channel-card:nth-child(3) {
+    transform: translate(170%, 200%) rotate(15deg);
+  }
+  
+  .channel-card-group:hover > .little-channel-card:nth-child(5) {
+    transform: translate(-210%, -170%) rotate(15deg);
+  }
+  
+  .channel-card-group:hover > .little-channel-card:nth-child(7) {
+    transform: translate(-290%, 200%) rotate(-15deg);
+  }
