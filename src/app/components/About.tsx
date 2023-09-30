@@ -1,9 +1,9 @@
 import React from 'react'
-import { Carousel } from './Carousel'
+// import { Carousel } from './Carousel'
 import Cards from './Cards/page'
 const About = () => {
   return (
-    <section id="about" className="about text-base justify-center items-center flex">
+    <section id="About" className="about text-base justify-center items-center flex">
       <div className="container ">
         <div className="section-title">
           <h2 className="other-header">About</h2>
@@ -25,13 +25,13 @@ const About = () => {
             <div className="grid grid-cols-2">
               <div>
                 <ul>
-                  <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>18</span></li>
+                  <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>19</span></li>
                   <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>Bengaluru, India</span></li>
                 </ul>
               </div>
               <div>
                 <ul>
-                  <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>BTech In CSE</span></li>
+                  <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>B.E In CSE</span></li>
                   <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>akashsingh2210670@gmail.com</span></li>
                 </ul>
               </div>

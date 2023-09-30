@@ -1,31 +1,39 @@
 import React from 'react'
 const Cards = () => {
   return (
-    <div className="channel-card-group">
-        <div className="little-channel-card channel-card hidden ">
+    <div className=''>
+    <div className="channel-card-group hidden lg:block">
+        <div className="little-channel-card channel-card hidden  ">
             <a href="" className="vid1"><span className="links"></span></a>
         </div>
-        <div className="big-channel-card channel-card bg-akash-0">
+        <div className="big-channel-card channel-card  ">
             <a href=""><span className="links"></span></a>
         </div>
         <div className="little-channel-card channel-card hidden">
             <a href=""><span className="links"></span></a>
         </div>
-        <div className="big-channel-card channel-card bg-akash-1">
+        <div className="big-channel-card channel-card ">
             <a href=""><span className="links"></span></a>
         </div>
         <div className="little-channel-card channel-card hidden" >
             <a href=""><span className="links"></span></a>
         </div>
-        <div className="big-channel-card channel-card bg-akash-2">
+        <div className="big-channel-card channel-card ">
             <a href=""><span className="links"></span></a>
         </div>
         <div className="little-channel-card channel-card hidden">
             <a href=""><span className="links"></span></a>
         </div>
-        <div className="big-channel-card channel-card bg-akash-3">
+        <div className="big-channel-card channel-card ">
             <a href=""><span className="links"></span></a>
         </div>
+    </div>
+    <div className="lg:hidden"> {/* This div is hidden on large screens */}
+  <div className=" p-4 rounded-md shadow-md w-4/6 overflow-hidden">
+    <img src="/akash-0.jpg" alt="Image" className="w-full h-auto transform transition-transform duration-300 hover:scale-105" />
+  </div>
+</div>
+
     </div>
   )
 }

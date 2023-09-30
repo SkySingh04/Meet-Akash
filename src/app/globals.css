@@ -192,3 +192,64 @@ section {
 .channel-card-group:hover > .little-channel-card:nth-child(7) {
   transform: translate(-290%, 200%) rotate(-15deg);
 }
+
+/* Images */
+.big-channel-card:nth-child(2) {
+  background-image: url("/akash-2.jpg");
+  background-position: 25% 50%;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.big-channel-card:nth-child(4) {
+  background-image: url("/akash-3.jpg");
+  background-position: 50% 50%;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.big-channel-card:nth-child(6) {
+  background-image: url("/akash-6.jpg");
+  background-position: 60% 85%;
+  
+  }
+
+.big-channel-card:nth-child(8) {
+  background-image: url("/akash-5.jpg");
+  background-position: 55%, 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* @media (max-width: 1000px) {
+  .big-channel-card:nth-child(2) {
+    background-position: 60% 70%;
+  }
+
+  .big-channel-card:nth-child(4) {
+    background-position:55% 45% ;
+  }
+
+  .big-channel-card:nth-child(6) {
+    background-position: 30% 50%;
+  }
+
+  .big-channel-card:nth-child(8) {
+    background-position:50% 10% ;
+  }
+} */
+
+/* Media query to hide elements on tablets and smaller devices */
+@media (max-width: 768px) {
+  .big-channel-card:nth-child(2),
+  .big-channel-card:nth-child(4),
+  .big-channel-card:nth-child(6),
+  .big-channel-card:nth-child(8) {
+    display: none;
+  }
+}
+
+
+
