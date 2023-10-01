@@ -1,9 +1,9 @@
 import React from 'react'
 // import { Carousel } from './Carousel'
-import Cards from './Cards/page'
+import Cards from './Cards'
 const About = () => {
   return (
-    <section id="About" className="about text-base justify-center items-center flex">
+    <section id="About" className="about text-base justify-center items-center flex page-section">
       <div className="container ">
         <div className="section-title">
           <h2 className="other-header">About</h2>

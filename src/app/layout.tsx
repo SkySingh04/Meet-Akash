@@ -24,6 +24,10 @@ export default function RootLayout({
 }) {
   return (
     <html  data-theme="dark" lang="en">
+      <head>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
+          
+      </head>
       <body className={roboto.className}>{children}</body>
     </html>
   )
