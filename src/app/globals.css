@@ -228,23 +228,6 @@ section {
   background-size: cover;
 }
 
-/* @media (max-width: 1000px) {
-  .big-channel-card:nth-child(2) {
-    background-position: 60% 70%;
-  }
-
-  .big-channel-card:nth-child(4) {
-    background-position:55% 45% ;
-  }
-
-  .big-channel-card:nth-child(6) {
-    background-position: 30% 50%;
-  }
-
-  .big-channel-card:nth-child(8) {
-    background-position:50% 10% ;
-  }
-} */
 
 /* Media query to hide elements on tablets and smaller devices */
 @media (max-width: 768px) {
@@ -334,14 +317,10 @@ section {
 
 h1, h2, h3, h4, span {
   color: rgb(240, 240, 240);
-  font-family: "Rubik", sans-serif;
   font-weight: 400;
   margin: 0px;
 }
 
-i {  
-  color: rgb(240, 240, 240);
-}
 
 .card-image {
   align-items: center;
@@ -413,8 +392,19 @@ i {
 
 @media (max-width: 500px) {
   .card {
-    height: auto; /* Let the height adjust based on content */
+    height: 150px;
+    width: 200px;
   }
+
+  
+  #cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 0px;  
+    max-width: 200px;
+    width: calc(100% - 20px);
+  }
+  
 
   .card-image {
     height: 80px;
