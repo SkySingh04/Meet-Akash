@@ -4,6 +4,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Achievements from "./components/Achievements";
+import Volunteering from "./components/Volunteering";
 export default function HomePage() {
   return (
     <div>
@@ -12,7 +13,8 @@ export default function HomePage() {
       <About />
       <Skills />
       <Experience />
-      <Achievements />
+      {/* <Achievements /> */}
+      <Volunteering />
     </div>
   )
 }
