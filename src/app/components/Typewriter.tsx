@@ -27,7 +27,7 @@ function Typewriter() {
       }
     };
 
-    const typingInterval = setInterval(type, 65);
+    const typingInterval = setInterval(type, 70);
 
     return () => {
       clearInterval(typingInterval);

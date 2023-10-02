@@ -1,5 +1,5 @@
 import React from 'react'
-const Cards = () => {
+const ProfileCards = () => {
   return (
     <div className=''>
     <div className="channel-card-group hidden lg:block">
@@ -38,4 +38,4 @@ const Cards = () => {
   )
 }
 
-export default Cards
+export default ProfileCards
