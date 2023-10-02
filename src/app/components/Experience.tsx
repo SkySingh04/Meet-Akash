@@ -4,7 +4,7 @@ import WorkExperience from './WorkExperience';
 
 const Page = () => {
   return (
-    <div className='page-section text-base px-5 sm:justify-center'>
+    <div className='page-section text-base px-5 sm:justify-center' id="Experience">
       
       <div className="md:flex">
         {/* Left Column (Resume) */}

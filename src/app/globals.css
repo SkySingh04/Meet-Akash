@@ -400,9 +400,13 @@ h1, h2, h3, h4, span {
   #cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px 0px;  
-    max-width: 200px;
-    width: calc(100% - 20px);
+    gap: 20px 0px;
+    max-width: none; /* Remove max-width */
+    width: 100%; /* Remove calc */
+  }
+  
+  .card {
+    width: calc(50% - 20px); /* 50% width with 20px gap on both sides */
   }
   
 

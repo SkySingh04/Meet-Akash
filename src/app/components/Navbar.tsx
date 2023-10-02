@@ -88,7 +88,6 @@ const Navbar = () => {
             <li><a href="/#Experience">Experience</a></li>
             <li><a href="/#Achievements">Achievements</a></li>
             <li><a href="/#Volunteering">Volunteering</a></li>
-            <li><a href="/#Resume">Resume</a></li>
         </ul>
     </div>
     <div className="navbar-center hidden lg:flex">
@@ -100,7 +99,6 @@ const Navbar = () => {
         <li><a href="/#Experience">Experience</a></li>
         <li><a href="/#Achievements">Achievements</a></li>
         <li><a href="/#Volunteering">Volunteering</a></li>
-        <li><a href="/#Resume">Resume</a></li> 
         
     </ul>
     </div>
