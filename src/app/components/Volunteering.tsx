@@ -13,9 +13,9 @@ const Volunteering = () => {
           <Volunteer
             avatarSrc="/LITSOC.png"
             clubName="LITSOC"
-            description="Active member of the Literary Society at Dayananda Sagar College of Engineering, where I am actively participating in numerous public speaking engagements, debates, literary contests, and attending team practice sessions while also competing in various competitive events."
+            description="As an active member of the Literary Society at Dayananda Sagar College of Engineering, I have immersed myself in a vibrant environment of public speaking engagements, debates, literary contests, and event organization. I not only honed my oratory and critical thinking skills but also actively contributed to team practice sessions and event coordination. Additionally, I represented my college by competing in diverse competitive events and festivals across Bangalore, solidifying my passion for literature and communication in an academic setting."
             clubLink='https://www.linkedin.com/company/litsoc-dsi/'
-            imageUrl='/20.jpg'
+            imageUrl='/LITSOCImg.jpg'
           />
         </div>
         <hr className="border-t border-blue-400 my-4 mx-auto w-[50%] " />
@@ -24,9 +24,9 @@ const Volunteering = () => {
           <Volunteer
             avatarSrc="/PointBlank.png"
             clubName="PointBlank"
-            description="Member of an elite multidisciplinary team of programmers who focus on various competitions such as the ACM ICPC, CodeChef Snackdown, GSoC and Smart India Hackathon. Also contributed in multiple team projects, contributed to the social media team and attended weekly competitive programming contests."
+            description="As a volunteer member at PointBlank, I was an integral part of a dynamic, multidisciplinary team focused on competitive programming and innovation. I excelled in renowned programming competitions like ACM ICPC and CodeChef Snackdown, honing my problem-solving abilities and algorithmic thinking. My participation in Google Summer of Code underscored my commitment to open source and innovation, while my teamwork and communication skills were showcased through collaboration on team projects and contributions to the club's social media efforts. This experience not only enriched my technical skills but also instilled in me a passion for continuous learning and leadership in the ever-evolving tech landscape."
             clubLink='https://www.linkedin.com/company/point-blank-d/'
-            imageUrl='/20.jpg'
+            imageUrl='/PointBlankImg.jpg'
           />
         </div>
         
@@ -38,7 +38,7 @@ const Volunteering = () => {
             clubName="PsychMic"
             description="An inspiring emcee team dedicated to moving crowds where I contributed my passion for hosting and organizing inter and intra college events and fests. Collaborating with this dynamic group allowed me to refine my communication and event management skills, while also fostering a sense of creativity and teamwork while elevating my love for public speaking."
             clubLink='https://www.linkedin.com/company/psychmic/'
-            imageUrl='/20.jpg'
+            imageUrl='/PyschMicImg.jpg'
           />
         </div>
         

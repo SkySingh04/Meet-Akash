@@ -13,20 +13,10 @@ const Volunteer = (props: VolunteerProps) => {
   return (
     <div className="volunteer-container grid grid-cols-1 md:grid-cols-2 gap-4 py-5">
       {/* Left Column (Avatar) */}
-      <div className="text-center md:mr-[200px] ">
-        <a href={props.clubLink}>
-          <div className="avatar">
-            <div className="w-[300px] rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 mx-auto md:mx-0 flex align-center md:mt-[150px]">
-              <img src={props.avatarSrc} alt="Avatar" className='  flex align-center' />
-            </div>
-          </div>
-        </a>
-      </div>
-      {/* Right Column (Volunteer Details) */}
       <div className="text-center md:text-left">
-        <div className="section-title">
+        {/* <div className="section-title">
           <h2 className="club-heading other-header">{props.clubName}</h2>
-        </div>
+        </div> */}
         {/* Image */}
         <div className="image-container relative w-full mx-auto md:mx-0 justify-center flex">
           <img
@@ -36,9 +26,21 @@ const Volunteer = (props: VolunteerProps) => {
           />
         </div>
         {/* Description */}
-        <p className="description mt-4">{props.description}</p>
+        
         
       
+      </div>
+      
+      {/* Right Column (Volunteer Details) */}
+      <div className="text-center  ">
+        <a href={props.clubLink}>
+          <div className="avatar">
+            <div className="w-[200px] rounded-full ring ring-blue-900 ring-offset-base-100 ring-offset-2 mx-auto md:mx-0 flex align-center ">
+              <img src={props.avatarSrc} alt="Avatar" className='  flex align-center' />
+            </div>
+          </div>
+        </a>
+        <p className="description mt-4">{props.description}</p>
       </div>
       
     </div>
