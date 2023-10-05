@@ -18,7 +18,7 @@ const Volunteer = (props: VolunteerProps) => {
           <h2 className="club-heading other-header">{props.clubName}</h2>
         </div> */}
         {/* Image */}
-        <div className="image-container relative w-full mx-auto md:mx-0 justify-center flex">
+        <div className="image-container relative w-full mx-auto md:mx-0 justify-center flex ">
           <img
             src={props.imageUrl}
             alt={props.clubName}
