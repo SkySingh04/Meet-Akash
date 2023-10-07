@@ -2,7 +2,7 @@ import React from 'react'
 import SkillCard from './SkillCard'
 const Skills = () => {
   return (
-    <div id="Skills" className='page-section text-base px-5'>
+    <div id="Skills" className='page-section text-base px-5 mb-5'>
     <div className="section-title">
           <h2 className="other-header">Skills</h2>
           </div>
