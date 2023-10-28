@@ -14,28 +14,38 @@ const Projects = () => {
           <ProjectCard
             name="Motion Amplification Video"
             imgSrc="/portfolio-mav-1.png"
+            id="mav"
+            githubLink="https://github.com/Akash-Singh04/Motion-Amplification-Video"
           />
 
           {/* Project Card 2 */}
           <ProjectCard
             name="ClassSnap"
             imgSrc="/portfoilio-classsnap-1.png"
+            id="classsnap"
+            githubLink='https://github.com/Akash-Singh04/ClassSnap'
           />
 
           {/* Project Card 3 */}
           <ProjectCard
             name="SleepSense"
             imgSrc="/portfolio-sleepsense-1.png"
+            id="sleepsense"
+            githubLink='https://github.com/Akash-Singh04/SleepSense'
           />
 
           {/* Project Card 4 */}
           <ProjectCard
             name="AI Image Generator"
             imgSrc="/portfolio-ai-image-1.png"
-          />
+            id="aiimage"
+            githubLink='https://github.com/Akash-Singh04/AI-IMAGE-GENERATION-APP'
+/>
           <ProjectCard
             name="Gen-Z Diaries"
             imgSrc="/portfolio-blogwebsite-1.png"
+            id="blogwebsite"
+            githubLink='https://github.com/Akash-Singh04/Gen-Z-Diaries'
           />
 
           {/* <ProjectCard
