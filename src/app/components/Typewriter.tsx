@@ -22,7 +22,10 @@ function Typewriter() {
       } else {
         setCurrentText(currentWord.substring(0, currentText.length + 1));
         if (currentText === currentWord) {
-          setIsDeleting(true);
+          setTimeout(() => {
+            setIsDeleting(true);
+          },1000 );
+          
         }
       }
     };
@@ -35,7 +38,7 @@ function Typewriter() {
   }, [currentWordIndex, currentText, isDeleting]);
 
   return (
-    <div className='inline' >
+    <div className='inline text-center' >
       <p id="typewriter" className="py-4 w-full text-bold text-5xl italic">{currentText}</p>
     </div>
   );

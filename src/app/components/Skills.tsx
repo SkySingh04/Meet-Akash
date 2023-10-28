@@ -2,11 +2,11 @@ import React from 'react'
 import SkillCard from './SkillCard'
 const Skills = () => {
   return (
-    <div id="Skills" className='page-section text-base px-5 mb-5'>
+    <div id="Skills" className='page-section text-base px-5 mb-5' data-aos="fade-up">
     <div className="section-title">
           <h2 className="other-header">Skills</h2>
           </div>
-    <div className='flex justify-center ' >
+    <div className='flex justify-center  ' data-aos="fade-up" >
       <div id='cards'>
       
       <SkillCard

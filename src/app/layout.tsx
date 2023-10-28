@@ -1,4 +1,5 @@
 import './globals.css'
+import { AOSInit } from './components/aos'
 import type { Metadata } from 'next'
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
@@ -24,11 +25,13 @@ export default function RootLayout({
 }) {
   return (
     <html  data-theme="dark" lang="en">
+      <AOSInit />
       <head>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
           
       </head>
-      <body className={roboto.className}>{children}</body>
+      <body className={` ${roboto.className}`}>{children}
+      </body>
     </html>
   )
 }

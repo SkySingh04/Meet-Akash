@@ -2,7 +2,7 @@ import React from 'react'
 import Stats from './Stats'
 const Achievements = () => {
   return (
-    <div  className='page-section text-base px-5  ' id="Achievements" >
+    <div  className='page-section text-base px-5  ' id="Achievements" data-aos="fade-up" >
       <div className="section-title">
           <h2 className="other-header">Achievements</h2>
           </div>

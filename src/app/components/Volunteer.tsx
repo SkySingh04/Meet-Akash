@@ -11,7 +11,7 @@ interface VolunteerProps {
 
 const Volunteer = (props: VolunteerProps) => {
   return (
-    <div className="volunteer-container grid grid-cols-1 md:grid-cols-2 gap-4 py-5">
+    <div className="volunteer-container grid grid-cols-1 md:grid-cols-2 gap-4 py-5" data-aos="fade-up">
       {/* Left Column (Avatar) */}
       <div className="text-center md:text-left">
         {/* <div className="section-title">

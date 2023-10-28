@@ -6,7 +6,7 @@ const Resume = () => {
       <div className="flex justify-center px-4 py-4 bg-base-200">
         <a href="https://olive-sarah-98.tiiny.site/">
           <img
-            src="https://i.ibb.co/5vBMMSN/AKASH-SINGH-RESUME-4-10-23.jpg"
+            src="https://i.ibb.co/TcSf31C/AKASH-SINGH-RESUME-8-10-23.jpg"
             alt="AKASH-SINGH-RESUME"
             className=""
           />

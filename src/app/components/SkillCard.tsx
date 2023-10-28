@@ -26,6 +26,7 @@ const SkillCard = (props: SkillCardProps) => {
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       onMouseMove={handleMouseMove}
+      
     >
       
       <div className="card-content  flex justify-center">
