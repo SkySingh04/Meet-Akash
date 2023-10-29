@@ -3,7 +3,7 @@ import React from 'react'
 import ProfileCards from './ProfileCards'
 const About = () => {
   return (
-    <section id="About" className="about text-base justify-center items-center flex page-section" data-aos="fade-up" >
+    <section id="About" className="about text-base justify-center items-center flex page-section bg-[#252A34]" data-aos="fade-up" >
       <div className="container ">
         <div className="section-title">
           <h2 className="other-header">About</h2>
@@ -13,7 +13,7 @@ const About = () => {
           </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 justify-center " >
-          <div className="lg:col-span-1 w-full ml-20" >
+          <div className="lg:col-span-1 w-full ml-[60px]" >
             {/* <Carousel /> */}
             <ProfileCards />
           </div>
@@ -22,7 +22,7 @@ const About = () => {
             <p className="italic py-2">
               Team Leader,Public Speaker,Efficient Worker
             </p>
-            <div className="grid grid-cols-2">
+            <div className="grid lg:grid-cols-2 grid-cols-1">
               <div>
                 <ul>
                   <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>19</span></li>
@@ -32,7 +32,8 @@ const About = () => {
               <div>
                 <ul>
                   <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>B.E In CSE</span></li>
-                  <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>akashsingh2210670@gmail.com</span></li>
+                  <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span className='text-center'>akashsingh2210670
+                  @gmail.com</span></li>
                 </ul>
               </div>
             </div>

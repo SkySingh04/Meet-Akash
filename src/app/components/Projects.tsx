@@ -4,7 +4,7 @@ import ProjectCard from './ProjectCard'; // Import your ProjectCard component
 const Projects = () => {
   return (
     <div>
-      <div id="Projects" className="page-section text-base px-6 my-5 py-10" data-aos="fade-up">
+      <div id="Projects" className="page-section text-base px-6 my-5 py-10 bg-[#252A34]" data-aos="fade-up">
         <div className="section-title">
           <h2 className="other-header">Projects</h2>
         </div>
