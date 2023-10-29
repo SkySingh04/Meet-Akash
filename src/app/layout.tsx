@@ -14,8 +14,8 @@ const roboto =  Roboto({
 })
 
 export const metadata: Metadata = {
-  title: 'Meet Akash',
-  description: 'My personal website',
+  title: 'Sky Singh',
+  description: 'Just A Healthy Dose Of Akash',
 }
 
 export default function RootLayout({
