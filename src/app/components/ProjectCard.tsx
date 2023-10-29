@@ -27,7 +27,7 @@ const ProjectCard = (props: ProjectCardProps) => {
   return (
     // Wrap the card with the Link component
     
-    <Link href={props.githubLink}>
+    <Link href={`/${props.id}`}>
         <div
           className={`card ${hovered ? 'hovered' : ''}`}
           onMouseEnter={() => setHovered(true)}
