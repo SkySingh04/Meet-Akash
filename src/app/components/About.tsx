@@ -3,7 +3,7 @@ import React from 'react'
 import ProfileCards from './ProfileCards'
 const About = () => {
   return (
-    <section id="About" className="about text-base justify-center items-center flex page-section section-bg" data-aos="fade-up" >
+    <section id="About" className="about text-base justify-center items-center flex page-section section-bg text-white" data-aos="fade-up" >
       <div className="container ">
         <div className="section-title">
           <h2 className="other-header">About</h2>

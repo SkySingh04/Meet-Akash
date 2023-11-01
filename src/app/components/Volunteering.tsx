@@ -3,7 +3,7 @@ import Volunteer from './Volunteer';
 
 const Volunteering = () => {
   return (
-    <div id="Volunteering" className="page-section text-base px-5" data-aos="fade-up">
+    <div id="Volunteering" className="page-section text-base px-5 text-white" data-aos="fade-up">
       <div className="section-title">
         <h2 className="other-header">Volunteering</h2>
       </div>
