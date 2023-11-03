@@ -15,7 +15,7 @@ const page = () => {
     return (
       <div>
         <Navbar />
-        <div className="project-details p-6 md:flex mt-20 items-center "  data-aos="fade-up">
+        <div className="project-details p-6 md:flex mt-20 items-center text-white"  data-aos="fade-up">
   <div className="md:w-1/2 md:pr-6 text-center">
     <img
       src={projectData.imgSrc}
