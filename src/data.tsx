@@ -8,7 +8,8 @@ const data = {
         'techStack':'MERN Python TensorFlow AWS',
         'domain':'Machine Learning, Computer Vision, Cloud Computing,Full Stack Web Development',
         'projectdate':'22.09.2023',
-        'projectlink':'https://youtu.be/ygeVFEa4_oo'
+        'youtubeLink':'https://youtu.be/ygeVFEa4_oo',
+        'projectlink':null
     },
     'classsnap':{
         'name':'ClassSnap',
@@ -18,7 +19,8 @@ const data = {
         'techStack':'MERN, Selenium Web Driver, Pegasus Model , Cloudinary',
         'domain':'Machine Learning, Full Stack Web Development , Web Driver',
         'projectdate':'25.08.2023',
-        'projectlink':'https://youtu.be/c7Uv2kCQrRw'
+        'youtubeLink':'https://youtu.be/c7Uv2kCQrRw',
+        'projectlink':null
     },
     'sleepsense':{
         'name':'SleepSense',
@@ -28,7 +30,8 @@ const data = {
         'techStack':'Python, OpenCv2,Tensorflow,Keras,Flask',
         'domain':'Machine Learning, Full Stack Web Development , Image Processing',
         'projectdate':'25.06.2023',
-        'projectlink':''
+        'projectlink':null,
+        'youtubeLink':null
     },
     'aiimage':{
         'name':'AI-IMAGE-GENERATION-APP',
@@ -38,7 +41,8 @@ const data = {
         'techStack':'MERN, DALL-E API, OpenAI, TawilWind',
         'domain':'Full Stack Web Development',
         'projectdate':'20.04.2023',
-        'projectlink':''
+        'projectlink':null,
+        'youtubeLink':null
     },
     'blogwebsite':{
         'name':'Gen-Z-Diaries',
@@ -48,8 +52,20 @@ const data = {
         'techStack':'Python(Flask),HTML5, CSS3, BOOTSTRAP5, SQLite',
         'domain':'Full Stack Web Development',
         'projectdate':'12.10.2022',
-        'projectlink':''
+        'projectlink':null,
+        'youtubeLink':null
     },
+    'quizquest':{
+        'name':'QuizQuest',
+        'imgSrc':'/portfolio-quizquest-2.png',
+        'githubLink':'' ,
+        'description':'This project is a comprehensive quiz management system developed to facilitate effortless creation, management, and completion of quizzes. Seamlessly integrating Firebase authentication and Firestore database, it offers secure user access, differentiating between admin and student roles. Admins can upload Excel files containing quiz data, which are condensed to generate quizzes, while a user-friendly interface allows input for quiz details. The interactive UI, crafted with Next.js, React, and Tailwind CSS, aids easy navigation. Students can access available quizzes, track progress, and complete quizzes, with Firebase ensuring real-time updates. The system also integrates social media links and contact details, enhancing user interaction and transparency. QuizQuest is a comprehensive solution for quiz management, offering a seamless experience for both admins and students.',
+        'techStack':'NextJs,Typescript,Firebase',
+        'domain':'Full Stack Web Development',
+        'projectdate':'16.11.2022',
+        'projectlink':'https://quiz-quest-delta.vercel.app/',
+        'youtubeLink':null
+    }
 }
 
 export default data 

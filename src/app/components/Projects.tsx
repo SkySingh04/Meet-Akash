@@ -12,6 +12,14 @@ const Projects = () => {
         <div className="flex flex-wrap justify-center">
           {/* Project Card 1 */}
           <ProjectCard
+            name="Quiz Quest"
+            imgSrc="/portfolio-quizquest-2.png"
+            id="quizquest"
+            githubLink='https://github.com/Akash-Singh04/QuizQuest'
+          />
+
+
+          <ProjectCard
             name="Motion Amplification Video"
             imgSrc="/portfolio-mav-1.png"
             id='mav'
@@ -47,7 +55,6 @@ const Projects = () => {
             id="blogwebsite"
             githubLink='https://github.com/Akash-Singh04/Gen-Z-Diaries'
           />
-
           {/* <ProjectCard
             name="Lofi Song Player"
             imgSrc="/portfolio-lofisongplayer-2.png"
