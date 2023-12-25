@@ -1,12 +1,16 @@
-'use client'
-import React, { useState, useEffect } from 'react';
+"use client";
+import React, { useState, useEffect } from "react";
 
-const words = ["Software Engineer", "Full Stack Developer", "Public Speaker" , "ML Enthusiast"  ];
-
+const words = [
+  "Software Engineer",
+  "Full Stack Developer",
+  "Public Speaker",
+  "DevOps Enthusiast",
+];
 
 function Typewriter() {
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
-  const [currentText, setCurrentText] = useState('');
+  const [currentText, setCurrentText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
 
   useEffect(() => {
@@ -15,7 +19,7 @@ function Typewriter() {
 
       if (isDeleting) {
         setCurrentText(currentWord.substring(0, currentText.length - 1));
-        if (currentText === '') {
+        if (currentText === "") {
           setIsDeleting(false);
           setCurrentWordIndex((index) => (index + 1) % words.length);
         }
@@ -24,8 +28,7 @@ function Typewriter() {
         if (currentText === currentWord) {
           setTimeout(() => {
             setIsDeleting(true);
-          },1000 );
-          
+          }, 1000);
         }
       }
     };
@@ -38,8 +41,10 @@ function Typewriter() {
   }, [currentWordIndex, currentText, isDeleting]);
 
   return (
-    <div className='inline text-center' >
-      <p id="typewriter" className="py-4 w-full text-bold text-5xl italic">{currentText}</p>
+    <div className="inline text-center">
+      <p id="typewriter" className="py-4 w-full text-bold text-5xl italic">
+        {currentText}
+      </p>
     </div>
   );
 }
