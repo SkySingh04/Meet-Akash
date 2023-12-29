@@ -15,10 +15,10 @@ const Projects = () => {
 
         <div className="flex flex-wrap justify-center">
         <ProjectCard
-            name="ClassSnap v2"
+            name="EduSync"
             imgSrc="/portfolio-classsnapv2-1.png"
-            id='classsnapv2'
-            githubLink="https://github.com/Akash-Singh04/classnapv2"
+            id='EduSync'
+            githubLink="https://github.com/Akash-Singh04/EduSync"
 
           />
           <ProjectCard
