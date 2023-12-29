@@ -1,20 +1,35 @@
-import React from 'react'
-import Stats from './Stats'
-const Achievements = () => {
-  return (
-    <div  className='page-section text-base px-5  ' id="Achievements" data-aos="fade-up" >
-      <div className="section-title">
-          <h2 className="other-header">Achievements</h2>
-          </div>
-    <div className="flex justify-center">
-      <div className="stats stats-vertical lg:stats-horizontal shadow">
-        <Stats icon1='' title1='New Users' value1='4,200' desc1='Jan 1st - Feb 1st'
-               icon2=''  title2='Downloads' value2='31K' desc2='↗︎ 400 (22%)' 
-               icon3=''  title3='New Registers' value3='1,200' desc3='↘︎ 90 (14%)' />
-        </div>
-      </div>
-      </div>
-  )
-}
+import React from "react";
+import AchievementCard from "./AcheivementCard"
+import {achievementData} from "../../data";
 
-export default Achievements
+type Achievement = {
+  title: string;
+  organization: string;
+  date: string;
+};
+type AchievementProps = {
+  achievements: Achievement[];
+};
+
+const Achievements: React.FC<AchievementProps> = ({ achievements }) => {
+  return (
+    <div className="flex flex-wrap justify-center p-4">
+      {achievements.map((achievement, index) => (
+        <AchievementCard key={index} achievement={achievement} />
+      ))}
+    </div>
+  );
+};
+
+const MyComponent: React.FC = () => {
+  return (
+    <div className="container mx-auto mt-4 p-4 " data-aos="fade-up" id="Achievements">
+      <div className="section-title">
+        <h2 className="other-header">Achievements</h2>
+      </div>
+      <Achievements achievements={achievementData} />
+    </div>
+  );
+};
+
+export default MyComponent;

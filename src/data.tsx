@@ -1,4 +1,4 @@
-const data = {
+const projectDataSet = {
     'EduSync':{
         'name':'EduSync',
         'imgSrc':'/portfolio-classsnapv2-1.png',
@@ -78,5 +78,69 @@ const data = {
         'youtubeLink':null
     }
 }
+type Achievement = {
+    title: string;
+    organization: string;
+    date: string;
+  };
 
-export default data 
+const achievementData: Achievement[] = [
+    {
+      title: "1st Place , Aircrash, Kalanjali 2023",
+      organization: "Sir M Visvesvaraya Institute Of Technology,Bangalore",
+      date: "Dec 2023",
+    },
+    {
+      title: "2nd Place, Enigma 2023 Hackathon",
+      organization: "Jyothy Institute Of Technology,Bangalore",
+      date: "Dec 2023",
+    },
+    {
+      title: "First Place, Bizzare Bazzar, E-Summit 2023",
+      organization: "IEDC, Dayananda Sagar College Of Engineering",
+      date: "Dec 2023",
+    },
+    {
+      title: "Runner Up, Parliamentary Debate, Maaya 2023",
+      organization: "PES University, Electronic City, Bengaluru",
+      date: "Nov 2023",
+    },
+    {
+      title: "Runner Up, Jam-Jigster, Matrix 2023",
+      organization: "Department Of Mathematics, Dayananda Sagar College Of Engineering",
+      date: "Aug 2023",
+    },
+    {
+      title: "2nd Place, 2v2 Debate Yuva 2023",
+      organization: "Sivananda Sarma Memorial RV College, Bengaluru",
+      date: "Jun 2023",
+    },
+    {
+      title: "1st Place, Extempore In-bloom 2023",
+      organization: "Christ University, Bengaluru",
+      date: "Apr 2023",
+    },
+    {
+      title: "1st Place, War Of Emcees Furore 2023",
+      organization: "Dayananda Sagar Institutions",
+      date: "Apr 2023",
+    },
+    {
+      title: "2nd Place, Aircrash In-bloom 2023",
+      organization: "Christ University, Bengaluru",
+      date: "Apr 2023",
+    },
+    {
+      title: "1st Place, Web Development Web Wizards",
+      organization: "Dayananda Sagar Institutions",
+      date: "Feb 2023",
+    },
+    {
+      title: "Third Place, Bizzare Bazzar, CUL-AH 2023",
+      organization: "Mount Carmel College, Bangalore",
+      date: "Feb 2023",
+    },
+  ];
+
+
+export  {projectDataSet,achievementData}

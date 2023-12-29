@@ -314,6 +314,11 @@ section {
   z-index: 2;
 }
 
+#acheivementcard{
+  height: 200px;
+  width: 200px;
+} 
+
 /* -- ↓ ↓ ↓ extra card content styles ↓ ↓ ↓ -- */
 
 h1, h2, h3, h4, span {

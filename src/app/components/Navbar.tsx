@@ -98,9 +98,10 @@ const Navbar = () => {
         <li><a href="/#About">About</a></li>
         <li><a href="/#Skills">Skills</a></li>
         <li><a href="/#Projects">Projects</a></li>
-        <li><a href="/#Volunteering">Volunteering</a></li>
+        <li><a href="/#Achievements">Achievements</a></li>
         <li><a href="/#Experience">Experience</a></li>
-        {/* <li><a href="/#Achievements">Achievements</a></li> */}
+        <li><a href="/#Volunteering">Volunteering</a></li>
+        
         
     </ul>
     </div>

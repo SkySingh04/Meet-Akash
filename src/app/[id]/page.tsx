@@ -2,7 +2,7 @@
 import React from 'react'
 import Navbar from "../components/Navbar";
 import { useParams } from 'next/navigation'
-import data from "../../../src/data"
+import {projectDataSet} from "../../../src/data" 
 import Footer from "../components/Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -13,7 +13,7 @@ import { faY } from '@fortawesome/free-solid-svg-icons/faY';
 const Page = () => {
   const params = useParams()
   const id:any = params.id
-  const projectData = data[id as keyof typeof data]
+  const projectData = projectDataSet[id as keyof typeof projectDataSet]
 
   return (
     <div>

@@ -15,10 +15,9 @@ export default function HomePage() {
       <About />
       <Skills />
       <Projects />
-      <Volunteering />
+      <Achievements />
       <Experience />
-      {/* <Achievements /> */}
-      
+      <Volunteering />
       <Footer />
     </div>
   )
