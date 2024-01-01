@@ -208,17 +208,18 @@ section {
   background-size: cover;
 }
 
-.big-channel-card:nth-child(4) {
-  background-image: url("/akash-3.jpg");
-  background-position: 50% 50%;
+.big-channel-card:nth-child(6) {
+  background-image: url("/akash-4.jpg");
+  background-position: 85% 50%;
 
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
 }
 
-.big-channel-card:nth-child(6) {
-  background-image: url("/akash-6.jpg");
+.big-channel-card:nth-child(4) {
+  background-image: url("/akash-7.jpg");
   background-position: 60% 85%;
+  background-size: cover;
   
   }
 
