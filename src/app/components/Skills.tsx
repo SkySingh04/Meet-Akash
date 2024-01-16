@@ -33,6 +33,10 @@ const Skills = () => {
             img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
           />
           <SkillCard
+            name="Golang"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg"
+          />
+          <SkillCard
             name="Python"
             img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
           />
@@ -110,10 +114,10 @@ const Skills = () => {
             name="Tailwind CSS"
             img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
           />
-          <SkillCard
+          {/* <SkillCard
             name="Php"
             img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
-          />
+          /> */}
         </div>
       </div>
     </div>
