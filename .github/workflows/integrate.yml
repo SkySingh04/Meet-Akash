@@ -15,5 +15,11 @@ jobs:
         - uses: actions/checkout@v2
         - name: Install dependencies
           run: npm ci
+        - name: Lint
+          run: npm run lint
+        - name: dev
+          run: npm run dev
+        - name: Start
+          run: npm run start
         - name: Build
           run: npm run build
