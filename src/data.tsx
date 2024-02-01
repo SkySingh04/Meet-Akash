@@ -85,6 +85,11 @@ type Achievement = {
   };
 
 const achievementData: Achievement[] = [
+  {
+    title: "1st Place , Hack-o-rama 2024 Hackathon",
+    organization: "Dayananda Sagar College Of Engineering,Bangalore",
+    date: "Jan 2024",
+  },
     {
       title: "1st Place , Aircrash, Kalanjali 2023",
       organization: "Sir M Visvesvaraya Institute Of Technology,Bangalore",
