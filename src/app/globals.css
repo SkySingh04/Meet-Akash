@@ -329,7 +329,7 @@ h1, h2, h3, h4, span {
 }
 
 
-.card-image {
+.skill-card-image {
   align-items: center;
   display: flex;
   height: 140px;
@@ -337,7 +337,7 @@ h1, h2, h3, h4, span {
   overflow: hidden;
 }
 
-.card-image > i {
+.skill-card-image > i {
   font-size: 6em;
   opacity: 0.25;
 }
@@ -417,11 +417,11 @@ h1, h2, h3, h4, span {
   }
   
 
-  .card-image {
+  .skill-card-image {
     height: 80px;
   }
 
-  .card-image > i {
+  .skill-card-image > i {
     font-size: 3em;
   }
 

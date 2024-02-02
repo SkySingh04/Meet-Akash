@@ -30,7 +30,7 @@ const SkillCard = (props: SkillCardProps) => {
     >
       
       <div className="card-content  flex justify-center">
-        <div className="card-image ">
+        <div className="skill-card-image ">
           {/* <i className={props.icon}></i> */}
           <img src={props.img_src } className='w-4/6' />
         </div>

@@ -15,18 +15,30 @@ const Projects = () => {
 
         <div className="flex flex-wrap justify-center">
         <ProjectCard
-            name="EduSync"
-            imgSrc="/portfolio-classsnapv2-1.png"
-            id='EduSync'
-            githubLink="https://github.com/Akash-Singh04/EduSync"
-
-          />
-          <ProjectCard
             name="Quiz Quest"
             imgSrc="/portfolio-quizquest-2.png"
             id="quizquest"
             githubLink="https://github.com/Akash-Singh04/QuizQuest"
           />
+        <ProjectCard
+            name="EduSync"
+            imgSrc="/portfolio-classsnapv2-1.png"
+            id='EduSync'
+            githubLink="https://github.com/Akash-Singh04/EduSync"
+          />
+        <ProjectCard
+            name="NoteBridge"
+            imgSrc="portfolio-notebridge-1.png"
+            id='NoteBridge'
+            githubLink="https://github.com/Akash-Singh04/NoteBridge"
+          />
+        <ProjectCard
+            name="Broucher"
+            imgSrc="/portfolio-broucher-3.png"
+            id='Broucher'
+            githubLink="https://github.com/Akash-Singh04/broucher"
+          />
+          
           <ProjectCard
             name="Motion Amplification Video"
             imgSrc="/portfolio-mav-1.png"

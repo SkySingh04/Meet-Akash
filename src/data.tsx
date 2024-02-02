@@ -10,7 +10,28 @@ const projectDataSet = {
         'youtubeLink':null,
         'projectlink':'https://edu-sync-phi.vercel.app/'
     },
-    
+    'Broucher':{
+        'name':'Broucher',
+        'imgSrc':'/portfolio-broucher-2.png',
+        'githubLink':'https://github.com/Akash-Singh04/broucher',
+        'description':'Broucher, your AI assistant for product info, website tasks, and project management, leverages cutting-edge tech! Built with Next.js for a smooth web UI, Firebase for scalable backend management, and Python for its intelligent chatbot engine, Broucher offers an intuitive experience to streamline your workflow. Ask questions, complete tasks, manage projects, and gain product knowledge - all through natural language commands!',
+        'techStack':'NextJs,Typescript,Firebase,Python',
+        'domain':'Full Stack Web Development , Machine Learning',
+        'projectdate':'22.01.2024',
+        'youtubeLink':null,
+        'projectlink':null
+    },
+    'NoteBridge':{
+        'name':'NoteBridge',
+        'imgSrc':'/portfolio-notebridge-1.png',
+        'githubLink':'https://github.com/Akash-Singh04/NoteBridge',
+        'description':'NoteBridge is a comprehensive note-taking application that offers a seamless and intuitive user experience. It leverages cutting-edge technologies like React, Java SpringBoot, and MYSQL to provide a secure and scalable platform for creating, storing, and sharing notes. The application also integrates advanced features like real-time chatting and IP address logging using java.net.InetAddress ensuring storage of IP addresses upon login of users . NoteBridge is a testament to the power of modern web technologies, offering a robust and user-friendly solution for note-taking and collaboration.',
+        'techStack':'React,Java SpringBoot,MYSQL,Java.net.InetAddress',
+        'domain':'Full Stack Web Development',
+        'projectdate':'22.01.2024',
+        'youtubeLink':null,
+        'projectlink':null
+    },
     'mav' : {
         'name':'Motion Amplification Video',
         'imgSrc':'/portfolio-mav-1.png',

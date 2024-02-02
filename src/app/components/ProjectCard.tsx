@@ -34,7 +34,7 @@ const ProjectCard = (props: ProjectCardProps) => {
           onMouseLeave={() => setHovered(false)}
           onMouseMove={handleMouseMove}
         >
-          <div className="card-image">
+          <div className="project-card-image">
             <img src={props.imgSrc} alt={props.name} />
             
           </div>
@@ -46,11 +46,11 @@ const ProjectCard = (props: ProjectCardProps) => {
           <style jsx>{`
             .card {
               position: relative;
-              width: 100%;
+              width: fit-content;
               max-width: 450px; /* Adjust the card width as needed */
               overflow: hidden;
               border-radius: 5px;
-              
+              background-color: #040D12;
             }
             @media (min-width: 768px) {
               .card {
@@ -64,14 +64,17 @@ const ProjectCard = (props: ProjectCardProps) => {
                 margin: 1rem auto;
               }
             }            
-            .card-image {
+            .project-card-image {
+              position: relative;
               width: 100%;
               height: 100%;
+              overflow: hidden;
             }
-            .card-image img {
+            .project-card-image img {
               width: 450px;
               height: 100%;
-              object-fit: cover;
+              object-fit: contain;
+              aspect-ratio: 3/2;
               display: block;
             }
             .card-info {
