@@ -70,10 +70,6 @@ const Skills = () => {
             img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg"
           />
           <SkillCard
-            name="Java Springboot"
-            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-plain.svg"
-          />
-          <SkillCard
             name="SqLite"
             img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-plain-wordmark.svg "
           />
@@ -99,6 +95,13 @@ const Skills = () => {
             img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
           />
           <SkillCard
+          name="Github Actions"
+          img_src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg"/>
+          <SkillCard
+          name="AWS"
+          img_src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+          />
+          <SkillCard
             name="HTML5"
             img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
           />
@@ -108,16 +111,16 @@ const Skills = () => {
           />
           <SkillCard
             name="Bootstrap"
-            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" 
           />
           <SkillCard
             name="Tailwind CSS"
-            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original-wordmark.svg"
           />
-          {/* <SkillCard
+          <SkillCard
             name="Php"
             img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
-          /> */}
+          />
         </div>
       </div>
     </div>
