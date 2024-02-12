@@ -30,7 +30,7 @@ const ProfileCards = () => {
     </div>
     <div className="lg:hidden"> {/* This div is hidden on large screens */}
   <div className=" p-4 rounded-md shadow-md w-4/6 overflow-hidden">
-    <img src="/Akash-1.png" alt="Image" className="w-full h-auto transform transition-transform duration-300 hover:scale-105" />
+    <img src="/Akash-1.png" alt="Image" className="w-full h-auto transform transition-transform duration-300 hover:scale-105 rounded" />
   </div>
 </div>
 

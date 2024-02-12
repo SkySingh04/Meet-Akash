@@ -23,15 +23,15 @@ const AchievementCard: React.FC<{ achievement: Achievement }> = ({ achievement }
 
   return (
     <div 
-      className={`bg-white shadow-lg rounded-lg py-2 px-4 m-4 card  ${hovered ? 'hovered' : ''}`}
+      className={`bg-white border-2 border-amber-600 shadow-lg rounded-lg py-2 px-4 m-4 card  ${hovered ? 'hovered' : ''}`}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       onMouseMove={handleMouseMove}
       id="acheivementcard"
     >
-      <h2 className="font-bold mb-2">{achievement.title}</h2>
-      <p className="text-sm text-gray-400 mb-2">{achievement.organization}</p>
-      <p className="text-xs text-gray-400 mb-4">{achievement.date}</p>
+      <h2 className="font-bold text-amber-500 mb-2">{achievement.title}</h2>
+      <p className="text-sm text-gray-200 mb-2">{achievement.organization}</p>
+      <p className="text-xs text-gray-200 mb-4">{achievement.date}</p>
       <style jsx>{`
         .card.hovered::before {
           background: radial-gradient(

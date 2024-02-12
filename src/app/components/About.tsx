@@ -14,11 +14,10 @@ const About = () => {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 justify-center " >
           <div className="lg:col-span-1 w-full ml-[60px]" >
-            {/* <Carousel /> */}
             <ProfileCards />
           </div>
-          <div className="lg:col-span-1 pt-4 lg:pt-0 content" >
-            <h3>Aspiring Software Engineer | Full Stack Web Developer | Student</h3>
+          <div className="lg:col-span-1 pt-4 lg:pt-0 content " >
+            <h3 className='text-amber-500'>Aspiring Software Engineer | Full Stack Web Developer | Student</h3>
             <p className="italic py-2">
               Team Leader,Public Speaker,Efficient Worker
             </p>

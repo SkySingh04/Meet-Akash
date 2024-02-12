@@ -59,8 +59,8 @@ const Skills = () => {
           />
           <SkillCard
             name="Node.js"
-            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-          />
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" 
+            />
           <SkillCard
             name="Express"
             img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
@@ -68,6 +68,10 @@ const Skills = () => {
           <SkillCard
             name="Flask"
             img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg"
+          />
+          <SkillCard
+            name="Spring"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg"
           />
           <SkillCard
             name="SqLite"
@@ -96,7 +100,8 @@ const Skills = () => {
           />
           <SkillCard
           name="Github Actions"
-          img_src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg"/>
+          img_src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg"
+          />
           <SkillCard
           name="AWS"
           img_src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"

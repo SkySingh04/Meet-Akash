@@ -22,14 +22,14 @@ const SkillCard = (props: SkillCardProps) => {
 
   return (
     <div 
-      className={`card ${hovered ? 'hovered' : ''}`}
+      className={`card  ${hovered ? 'hovered' : ''}`}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       onMouseMove={handleMouseMove}
       
     >
       
-      <div className="card-content  flex justify-center">
+      <div className="card-content   flex justify-center">
         <div className="skill-card-image ">
           {/* <i className={props.icon}></i> */}
           <img src={props.img_src } className='w-4/6' />
