@@ -1,7 +1,30 @@
-import React from "react";
+'use client'
+import React, { useState } from "react";
 import ProjectCard from "./ProjectCard"; // Import your ProjectCard component
+import { projectDataSet } from "@/data"; // Importing projectDataSet from your data file
 
 const Projects = () => {
+  const [selectedKeywords, setSelectedKeywords] = useState<any>([]); // State to hold selected keywords
+
+  // Extract unique keywords from projectDataSet
+  const allKeywords = Array.from(
+    new Set(Object.values(projectDataSet).flatMap((project) => project.keywords))
+  );
+
+  // Function to handle keyword selection
+  const toggleKeyword = (keyword: string) => {
+    if (selectedKeywords.includes(keyword)) {
+      setSelectedKeywords(selectedKeywords.filter((kw: string) => kw !== keyword));
+    } else {
+      setSelectedKeywords([...selectedKeywords, keyword]);
+    }
+  };
+
+  // Filter projects based on selected keywords
+  const filteredProjects = Object.values(projectDataSet).filter((project) =>
+    selectedKeywords.every((keyword:string) => project.keywords.includes(keyword))
+  );
+
   return (
     <div>
       <div
@@ -13,67 +36,34 @@ const Projects = () => {
           <h2 className="other-header">Projects</h2>
         </div>
 
+        {/* Filter keywords */}
+        <div className="flex flex-wrap mb-4 justify-center ">
+          {allKeywords.map((keyword) => (
+            <span
+              key={keyword}
+              onClick={() => toggleKeyword(keyword)}
+              className={`cursor-pointer px-3 py-1 rounded-[10px] mr-2 mb-2 text-bold ${
+                selectedKeywords.includes(keyword)
+                  ? "bg-amber-500 text-black"
+                  : "bg-gray-700 text-gray-200"
+              }`}
+            >
+              {keyword}
+            </span>
+          ))}
+        </div>
+
         <div className="flex flex-wrap justify-center">
-        <ProjectCard
-            name="Quiz Quest"
-            imgSrc="/portfolio-quizquest-2.webp"
-            id="quizquest"
-            githubLink="https://github.com/Akash-Singh04/QuizQuest"
-          />
-        <ProjectCard
-            name="EduSync"
-            imgSrc="/portfolio-classsnapv2-1.webp"
-            id='EduSync'
-            githubLink="https://github.com/Akash-Singh04/EduSync"
-          />
-        <ProjectCard
-            name="NoteBridge"
-            imgSrc="/portfolio-notebridge-1.webp"
-            id='NoteBridge'
-            githubLink="https://github.com/Akash-Singh04/NoteBridge"
-          />
-        <ProjectCard
-            name="Broucher"
-            imgSrc="/portfolio-broucher-3.webp"
-            id='Broucher'
-            githubLink="https://github.com/Akash-Singh04/broucher"
-          />
-          
-          <ProjectCard
-            name="Motion Amplification Video"
-            imgSrc="/portfolio-mav-1.webp"
-            id="mav"
-            githubLink="https://github.com/Akash-Singh04/Motion-Amplification-Video"
-          />
-
-          <ProjectCard
-            name="ClassSnap"
-            imgSrc="/portfoilio-classsnap-1.webp"
-            id="classsnap"
-            githubLink="https://github.com/Akash-Singh04/ClassSnap"
-          />
-
-          {/* Project Card 3 */}
-          <ProjectCard
-            name="SleepSense"
-            imgSrc="/portfolio-sleepsense-1.webp"
-            id="sleepsense"
-            githubLink="https://github.com/Akash-Singh04/SleepSense"
-          />
-
-          {/* Project Card 4 */}
-          <ProjectCard
-            name="AI Image Generator"
-            imgSrc="/portfolio-ai-image-1.webp"
-            id="aiimage"
-            githubLink="https://github.com/Akash-Singh04/AI-IMAGE-GENERATION-APP"
-          />
-          <ProjectCard
-            name="Gen-Z Diaries"
-            imgSrc="/portfolio-blogwebsite-1.webp"
-            id="blogwebsite"
-            githubLink="https://github.com/Akash-Singh04/Gen-Z-Diaries"
-          />
+          {/* Map through filtered projects */}
+          {filteredProjects.map((project) => (
+            <ProjectCard
+              key={project.name}
+              name={project.name}
+              imgSrc={project.imgSrc}
+              id={project.name}
+              githubLink={project.githubLink}
+            />
+          ))}
         </div>
       </div>
     </div>
