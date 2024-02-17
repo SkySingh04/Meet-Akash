@@ -75,8 +75,9 @@ const Skills = () => {
           />
           <SkillCard
             name="SqLite"
-            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-plain-wordmark.svg "
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-plain-wordmark.svg"
           />
+
           <SkillCard
             name="PostgreSQL"
             img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"

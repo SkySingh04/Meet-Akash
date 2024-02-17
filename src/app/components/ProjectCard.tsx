@@ -36,7 +36,7 @@ const ProjectCard = (props: ProjectCardProps) => {
           onMouseMove={handleMouseMove}
         >
           <div className="project-card-image">
-            <Image src={props.imgSrc} alt={props.name} width={1000} height={1000} className='w-full max-h-[100%] object-contain img'/>
+            <Image src={props.imgSrc} alt={props.name} width={1000} height={1000} className='img'/>
             
           </div>
           <div className="card-info">

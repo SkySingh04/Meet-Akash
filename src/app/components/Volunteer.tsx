@@ -27,7 +27,7 @@ const Volunteer = (props: VolunteerProps) => {
       <div className="text-center  ">
         <a href={props.clubLink}>
           <div className="avatar">
-            <div className="w-[200px] rounded-full ring ring-blue-900 ring-offset-base-100 ring-offset-2 mx-auto md:mx-0 flex align-center ">
+            <div className="w-[200px] rounded-full ring ring-amber-700 ring-offset-base-100 ring-offset-2 mx-auto md:mx-0 flex align-center ">
               <Image src={props.avatarSrc} alt="Avatar" width={200} height={200} className='flex align-center' />
             </div>
           </div>
