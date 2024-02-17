@@ -1,12 +1,12 @@
 'use client';
 import React from 'react';
-
+import Image from 'next/image';
 interface VolunteerProps {
   avatarSrc: string;
   clubName: string;
   clubLink?: string;
   description: string;
-  imageUrl?: string;
+  imageUrl: string;
 }
 
 const Volunteer = (props: VolunteerProps) => {
@@ -19,16 +19,8 @@ const Volunteer = (props: VolunteerProps) => {
         </div> */}
         {/* Image */}
         <div className="image-container relative w-full mx-auto md:mx-0 justify-center flex ">
-          <img
-            src={props.imageUrl}
-            alt={props.clubName}
-            className="w-5/6 rounded-lg hover:scale-105 transform transition-transform duration-300"
-          />
+          <Image src={props.imageUrl} alt={props.clubName} width={500} height={500} className="w-5/6 rounded-lg hover:scale-105 transform transition-transform duration-300" /> 
         </div>
-        {/* Description */}
-        
-        
-      
       </div>
       
       {/* Right Column (Volunteer Details) */}
@@ -36,7 +28,7 @@ const Volunteer = (props: VolunteerProps) => {
         <a href={props.clubLink}>
           <div className="avatar">
             <div className="w-[200px] rounded-full ring ring-blue-900 ring-offset-base-100 ring-offset-2 mx-auto md:mx-0 flex align-center ">
-              <img src={props.avatarSrc} alt="Avatar" className='  flex align-center' />
+              <Image src={props.avatarSrc} alt="Avatar" width={200} height={200} className='flex align-center' />
             </div>
           </div>
         </a>

@@ -201,7 +201,7 @@ section {
 
 /* Images */
 .big-channel-card:nth-child(2) {
-  background-image: url("/akash-2.jpg");
+  background-image: url("/akash-2.webp");
   background-position: 25% 50%;
   
   background-repeat: no-repeat;
@@ -209,7 +209,7 @@ section {
 }
 
 .big-channel-card:nth-child(6) {
-  background-image: url("/akash-4.jpg");
+  background-image: url("/akash-4.webp");
   background-position: 85% 50%;
 
   background-repeat: no-repeat;
@@ -217,14 +217,14 @@ section {
 }
 
 .big-channel-card:nth-child(4) {
-  background-image: url("/akash-7.jpg");
+  background-image: url("/akash-7.webp");
   background-position: 60% 85%;
   background-size: cover;
   
   }
 
 .big-channel-card:nth-child(8) {
-  background-image: url("/akash-5.jpg");
+  background-image: url("/akash-5.webp");
   background-position: 55%, 0%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -337,10 +337,7 @@ h1, h2, h3, h4, span {
   overflow: hidden;
 }
 
-.skill-card-image > i {
-  font-size: 6em;
-  opacity: 0.25;
-}
+
 
 .card-info-wrapper {
   align-items: center;
@@ -421,9 +418,6 @@ h1, h2, h3, h4, span {
     height: 80px;
   }
 
-  .skill-card-image > i {
-    font-size: 3em;
-  }
 
   .card-info-wrapper {
     padding: 0px 10px;

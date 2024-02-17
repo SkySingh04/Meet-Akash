@@ -16,39 +16,39 @@ const Projects = () => {
         <div className="flex flex-wrap justify-center">
         <ProjectCard
             name="Quiz Quest"
-            imgSrc="/portfolio-quizquest-2.png"
+            imgSrc="/portfolio-quizquest-2.webp"
             id="quizquest"
             githubLink="https://github.com/Akash-Singh04/QuizQuest"
           />
         <ProjectCard
             name="EduSync"
-            imgSrc="/portfolio-classsnapv2-1.png"
+            imgSrc="/portfolio-classsnapv2-1.webp"
             id='EduSync'
             githubLink="https://github.com/Akash-Singh04/EduSync"
           />
         <ProjectCard
             name="NoteBridge"
-            imgSrc="portfolio-notebridge-1.png"
+            imgSrc="/portfolio-notebridge-1.webp"
             id='NoteBridge'
             githubLink="https://github.com/Akash-Singh04/NoteBridge"
           />
         <ProjectCard
             name="Broucher"
-            imgSrc="/portfolio-broucher-3.png"
+            imgSrc="/portfolio-broucher-3.webp"
             id='Broucher'
             githubLink="https://github.com/Akash-Singh04/broucher"
           />
           
           <ProjectCard
             name="Motion Amplification Video"
-            imgSrc="/portfolio-mav-1.png"
+            imgSrc="/portfolio-mav-1.webp"
             id="mav"
             githubLink="https://github.com/Akash-Singh04/Motion-Amplification-Video"
           />
 
           <ProjectCard
             name="ClassSnap"
-            imgSrc="/portfoilio-classsnap-1.png"
+            imgSrc="/portfoilio-classsnap-1.webp"
             id="classsnap"
             githubLink="https://github.com/Akash-Singh04/ClassSnap"
           />
@@ -56,7 +56,7 @@ const Projects = () => {
           {/* Project Card 3 */}
           <ProjectCard
             name="SleepSense"
-            imgSrc="/portfolio-sleepsense-1.png"
+            imgSrc="/portfolio-sleepsense-1.webp"
             id="sleepsense"
             githubLink="https://github.com/Akash-Singh04/SleepSense"
           />
@@ -64,13 +64,13 @@ const Projects = () => {
           {/* Project Card 4 */}
           <ProjectCard
             name="AI Image Generator"
-            imgSrc="/portfolio-ai-image-1.png"
+            imgSrc="/portfolio-ai-image-1.webp"
             id="aiimage"
             githubLink="https://github.com/Akash-Singh04/AI-IMAGE-GENERATION-APP"
           />
           <ProjectCard
             name="Gen-Z Diaries"
-            imgSrc="/portfolio-blogwebsite-1.png"
+            imgSrc="/portfolio-blogwebsite-1.webp"
             id="blogwebsite"
             githubLink="https://github.com/Akash-Singh04/Gen-Z-Diaries"
           />

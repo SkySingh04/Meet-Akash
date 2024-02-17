@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react';
-
+import Image from 'next/image';
 interface SkillCardProps {
   name: string;
   img_src: string;
@@ -31,8 +31,8 @@ const SkillCard = (props: SkillCardProps) => {
       
       <div className="card-content   flex justify-center">
         <div className="skill-card-image ">
-          {/* <i className={props.icon}></i> */}
-          <img src={props.img_src } className='w-4/6' />
+          <Image src={props.img_src} alt={props.name} width={500} height={500} className='w-4/6'/>
+
         </div>
         <div className="card-info-wrapper ">
           <div className="card-info ">

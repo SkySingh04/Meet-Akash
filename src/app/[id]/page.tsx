@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
-import { faY } from '@fortawesome/free-solid-svg-icons/faY';
+import Image from 'next/image'
 
 const Page = () => {
   const params = useParams()
@@ -20,11 +20,7 @@ const Page = () => {
       <Navbar />
       <div className="project-details p-6 md:flex mt-20 items-center text-white"  data-aos="fade-up">
         <div className="md:w-1/2 md:pr-6 text-center">
-          <img
-            src={projectData.imgSrc}
-            alt={projectData.name}
-            className="w-full max-h-[100%] object-contain"
-          />
+          <Image src={projectData.imgSrc} alt={projectData.name} width={1000} height={1000} className='w-full max-h-[100%] object-contain'/>
           <a
             className="btn btn-ghost normal-case text-xl mt-4"
             href={projectData.githubLink}

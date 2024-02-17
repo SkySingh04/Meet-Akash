@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 // Import Link from Next.js
 import Link from 'next/link';
+import Image from 'next/image';
 
 interface ProjectCardProps {
   name: string;
@@ -35,7 +36,7 @@ const ProjectCard = (props: ProjectCardProps) => {
           onMouseMove={handleMouseMove}
         >
           <div className="project-card-image">
-            <img src={props.imgSrc} alt={props.name} />
+            <Image src={props.imgSrc} alt={props.name} width={1000} height={1000} className='w-full max-h-[100%] object-contain img'/>
             
           </div>
           <div className="card-info">
@@ -70,7 +71,7 @@ const ProjectCard = (props: ProjectCardProps) => {
               height: 100%;
               overflow: hidden;
             }
-            .project-card-image img {
+            .project-card-image .img {
               width: 450px;
               height: 100%;
               object-fit: contain;
