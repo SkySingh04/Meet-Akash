@@ -16,13 +16,15 @@
     "aos": "^2.3.4",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-embed-gist": "^1.0.19"
   },
   "devDependencies": {
     "@types/aos": "^3.0.6",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
+    "@types/react-embed-gist": "^1.0.4",
     "autoprefixer": "latest",
     "daisyui": "^3.8.1",
     "eslint-config-next": "14.1.0",

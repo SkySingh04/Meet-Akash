@@ -41,6 +41,9 @@ const Navbar = () => {
             <li>
               <a href="/#Experience">Experience</a>
             </li>
+            <li>
+              <a href="/#OpenSource">OpenSource</a>
+            </li>
             
             <li>
               <a href="/#Volunteering">Volunteering</a>
@@ -196,6 +199,9 @@ const Navbar = () => {
             </li>
             <li>
               <a href="/#Experience">Experience</a>
+            </li>
+            <li>
+              <a href="/#OpenSource">OpenSource</a>
             </li>
             <li>
               <a href="/#Volunteering">Volunteering</a>
