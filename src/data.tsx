@@ -1,5 +1,32 @@
+type Achievement = {
+  title: string;
+  organization: string;
+  date: string;
+};
+
+
 const projectDataSet = {
-  quizquest: {
+  "KeployVsCode": {
+    id:"KeployVsCode",
+    name: "Keploy VsCode Extension",
+    imgSrc: "/portfolio-keployvscode-1.webp",
+    githubLink: "https://github.com/Akash-Singh04/KeployVScodeExtension",
+    description:`Vs Code Extension For Keploy : E2E Testing right from your IDE!
+    Features:
+    - Keploy Record : Record Testcases with Keploy
+    - Keploy Test : Replay Recorded Testcases with Keploy
+    - Keploy Update : Update your Keploy to the latest version
+    - Keploy Version Display: Get the latest version of Keploy directly in your Visual Studio Code.
+    `,
+    techStack: "Typescript,Svelte,Bash,Javascript",
+    domain: "Extension Development",
+    projectdate: "15.03.2024",
+    projectlink: "https://marketplace.visualstudio.com/items?itemName=Akash-Singh04.heykeploy",
+    youtubeLink: "https://github.com/orgs/keploy/discussions/1654#discussioncomment-8848006",
+    keywords: ["Extension Development", "Typescript", "Svelte"],
+  },
+  "QuizQuest": {
+    id:"QuizQuest",
     name: "QuizQuest",
     imgSrc: "/portfolio-quizquest-2.webp",
     githubLink: "",
@@ -13,6 +40,7 @@ const projectDataSet = {
     keywords: ["Full Stack Web Development", "Nextjs" ,"Firebase",],
   },
   EduSync: {
+    id:"EduSync",
     name: "EduSync",
     imgSrc: "/portfolio-classsnapv2-1.webp",
     githubLink: "https://github.com/Akash-Singh04/EduSync",
@@ -31,6 +59,7 @@ const projectDataSet = {
     ],
   },
   Broucher: {
+    id:"Broucher",
     name: "Broucher",
     imgSrc: "/portfolio-broucher-1.webp",
     githubLink: "https://github.com/Akash-Singh04/broucher",
@@ -49,6 +78,7 @@ const projectDataSet = {
     ],
   },
   NoteBridge: {
+    id:"NoteBridge",
     name: "NoteBridge",
     imgSrc: "/portfolio-notebridge-1.webp",
     githubLink: "https://github.com/Akash-Singh04/NoteBridge",
@@ -67,6 +97,7 @@ const projectDataSet = {
     ],
   },
   mav: {
+    id:"mav",
     name: "Motion Amplification Video",
     imgSrc: "/portfolio-mav-1.webp",
     githubLink: "https://github.com/Akash-Singh04/Motion-Amplification-Video",
@@ -81,7 +112,7 @@ const projectDataSet = {
     keywords: ["Machine Learning", "Full Stack Web Development", "MERN"],
   },
   classsnap: {
-    name: "ClassSnap",
+    name: "classsnap",
     imgSrc: "/portfoilio-classsnap-2.webp",
     githubLink: "https://github.com/Akash-Singh04/ClassSnap",
     description:
@@ -94,11 +125,12 @@ const projectDataSet = {
     keywords: ["Machine Learning", "Full Stack Web Development", "MERN"],
   },
   sleepsense: {
+    id:"sleepsense",
     name: "SleepSense",
     imgSrc: "/portfolio-sleepsense-2.webp",
     githubLink: "https://github.com/Akash-Singh04/SleepSense",
     description:
-      "About A ML model that scans the driver for drowsiness and alerts them incase of danger while driving. Alerts are send via Telegram message and audio que. Also includes various features such as information of where you last fell asleep, analysis of trip, and recommendations based on when you should take rest and when you were most drowsy.",
+      "A ML model that scans the driver for drowsiness and alerts them incase of danger while driving. Alerts are send via Telegram message and audio que. Also includes various features such as information of where you last fell asleep, analysis of trip, and recommendations based on when you should take rest and when you were most drowsy.",
     techStack: "Python, OpenCv2,Tensorflow,Keras,Flask",
     domain: "Machine Learning, Full Stack Web Development , Image Processing",
     projectdate: "25.06.2023",
@@ -111,6 +143,7 @@ const projectDataSet = {
     ],
   },
   aiimage: {
+    id:"aiimage",
     name: "AI-IMAGE-GENERATION-APP",
     imgSrc: "/portfolio-ai-image-1.webp",
     githubLink: "https://github.com/Akash-Singh04/AI-IMAGE-GENERATION-APP",
@@ -124,6 +157,7 @@ const projectDataSet = {
     keywords: ["Full Stack Web Development", "MERN"],
   },
   blogwebsite: {
+    id:"BlogWebsite",
     name: "Gen-Z-Diaries",
     imgSrc: "/portfolio-blogwebsite-1.webp",
     githubLink: "https://github.com/Akash-Singh04/Gen-Z-Diaries",
@@ -136,11 +170,6 @@ const projectDataSet = {
     youtubeLink: null,
     keywords: ["Full Stack Web Development", "Python:Flask"],
   },
-};
-type Achievement = {
-  title: string;
-  organization: string;
-  date: string;
 };
 
 const achievementData: Achievement[] = [

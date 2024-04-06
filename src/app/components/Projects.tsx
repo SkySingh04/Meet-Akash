@@ -60,7 +60,7 @@ const Projects = () => {
               key={project.name}
               name={project.name}
               imgSrc={project.imgSrc}
-              id={project.name}
+              id={project.id}
               githubLink={project.githubLink}
             />
           ))}
