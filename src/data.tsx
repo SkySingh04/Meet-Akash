@@ -112,6 +112,7 @@ const projectDataSet = {
     keywords: ["Machine Learning", "Full Stack Web Development", "MERN"],
   },
   classsnap: {
+    id:"classsnap",
     name: "classsnap",
     imgSrc: "/portfoilio-classsnap-2.webp",
     githubLink: "https://github.com/Akash-Singh04/ClassSnap",
