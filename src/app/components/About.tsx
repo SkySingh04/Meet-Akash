@@ -75,9 +75,9 @@ const About = () => {
 
             <p>
               Throughout my academic journey, I've gained extensive experience
-              in software development as a <i className='highlighttext'>Full-Stack Developer</i>. I've also
-              excelled as a <i className='highlighttext'>Technical Trainer</i>, guiding peers and seasoned
-              professionals alike while also teaching coding to children ranging from <i className='highlighttext'>age 7 up to
+              in software development as a <i className='highlighttext'>Full-Stack Developer</i> and worked on <i className='highlighttext'>Devops</i> and <i className='highlighttext'>Kernel</i>.
+              I was selected as a contributor to <i className='highlighttext'>Google Summer of Code 2024</i> with <i className='highlighttext'>Keploy</i> . I've also
+              excelled as a <i className='highlighttext'>Technical Trainer</i>, guiding students across various colleges in Banglore while also teaching coding to children ranging from <i className='highlighttext'>age 7 up to
               age 15</i>, solidifying my grasp of complex concepts through practical
               instruction. Beyond technical expertise, I've actively contributed
               to extracurricular activities like the Literary Society and Emcee
@@ -85,9 +85,8 @@ const About = () => {
               Leadership skills were honed leading a team of 80+ members in
               PointBlank, fostering collaboration and productivity. Furthermore,
               I'm committed to the open-source community, contributing to
-              various projects and I am excited to  participate in programs like <i className='highlighttext'>Google Summer
-              of Code, Hacktoberfest, and LFX</i>. Additionally, I've competed and
-              in hackathons like the <i className='highlighttext'>Smart India Hackathon</i>, showcasing my
+              various projects and I am excited to apply for  programs like <i className='highlighttext'> LFX , MLH, Mitacs</i>. Additionally, I've competed and
+              in hackathons like the <i className='highlighttext'>Smart India Hackathon</i>, and won various hackathons nationwide showcasing my
               ability to innovate under pressure. These experiences set me
               apart, positioning me as a versatile professional ready to excel
               and innovate across diverse domains.

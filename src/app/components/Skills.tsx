@@ -25,6 +25,14 @@ const Skills = () => {
             img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
           />
           <SkillCard
+            name="Svelte"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg"
+          />
+          <SkillCard
+            name="GraphQL"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg"
+          />
+          <SkillCard
             name="Firebase"
             img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
           />
@@ -35,6 +43,10 @@ const Skills = () => {
           <SkillCard
             name="Golang"
             img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg"
+          />
+          <SkillCard
+          name="Rust"
+          img_src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" 
           />
           <SkillCard
             name="Python"
@@ -123,10 +135,10 @@ const Skills = () => {
             name="Tailwind CSS"
             img_src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original-wordmark.svg"
           />
-          <SkillCard
+          {/* <SkillCard
             name="Php"
             img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
-          />
+          /> */}
         </div>
       </div>
     </div>
