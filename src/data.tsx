@@ -174,6 +174,32 @@ const projectDataSet = {
 };
 
 const achievementData: Achievement[] = [
+  
+  {
+    title: "3rd Place , Hackman v7 Hackathon 2024",
+    organization: "Department Of Information Science, Dayananda Sagar College Of Engineering",
+    date: "June 2024",
+  },
+  {
+    title: "1st Place , Hackbanglore 2024 National Hackathon",
+    organization: "AngelHack",
+    date: "May 2024",
+  },
+  {
+    title: "1st Place , Coding Relay Race 2024",
+    organization: "Department Of AI/ML, Dayananda Sagar College Of Engineering",
+    date: "May 2024",
+  },
+  {
+    title: "1st Place , Clone Wars 2024",
+    organization: "Department Of Computer Science, Dayananda Sagar College Of Engineering",
+    date: "April 2024",
+  },
+  {
+    title: "Debate Finalist , Dianoia x Pravega 2024",
+    organization: "Indian Institute Of Science,Bangalore",
+    date: "Jan 2024",
+  },
   {
     title: "1st Place , Hack-o-rama 2024 Hackathon",
     organization: "Dayananda Sagar College Of Engineering,Bangalore",
@@ -227,7 +253,7 @@ const achievementData: Achievement[] = [
   },
   {
     title: "1st Place, Web Development Web Wizards",
-    organization: "Dayananda Sagar Institutions",
+    organization: "Department Of Computer Science, Dayananda Sagar College Of Engineering",
     date: "Feb 2023",
   },
   {
