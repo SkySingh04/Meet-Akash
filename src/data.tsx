@@ -6,6 +6,31 @@ type Achievement = {
 
 
 const projectDataSet = {
+  "Dns-Server-Rust": {
+    id: "Dns-Server-Rust",
+    name: "Dns-Server-Rust",
+    imgSrc: "/portfolio-dnsserverrust-1.png",
+    githubLink: "https://github.com/Akash-Singh04/DNS-Server-Rust",
+    description:`Built a DNS Server from Scratch in RUST!`,
+    techStack: "RUST",
+    domain: "RUST",
+    projectdate: "23.06.2024",
+    keywords: ["Devops", "RUST"],
+  },
+  "HaalSamachar": {
+    id: "HaalSamachar",
+    name: "HaalSamachar",
+    imgSrc: "/portfolio-haalsamachar-1.png",
+    githubLink: "https://github.com/Akash-Singh04/Haalsamachar-app",
+    description:`Application Repository for HaalSamachar consisting of Backend Microservices built with GoLang including a GraphQL API built using gqlgen and four REST APIs built using Gin and frontend built with NextJs+TypeScript with PostgreSQL powered database, containerized using Docker.
+Haalsamachar IAC : Contains Terraform scripts, Kubernetes manifests, and GitOps configurations for Haalsamachar App
+`,
+    techStack: "react graphql docker kubernetes golang typescript rest server nextjs tailwindcss gqlgen kubernetes aws terraform ecs ecr gitops",
+    domain: "Devops and Full Stack Web Development",
+    projectdate: "20.03.2024",
+    projectlink: "https://haal-samachar.vercel.app/",
+    keywords: ["Devops", "Full Stack Web Development"],
+  },
   "KeployVsCode": {
     id:"KeployVsCode",
     name: "Keploy VsCode Extension",
@@ -39,6 +64,19 @@ const projectDataSet = {
     youtubeLink: null,
     keywords: ["Full Stack Web Development", "Nextjs" ,"Firebase",],
   },
+ "Sharkbucks": {
+    id:"Sharkbucks",
+    name: "Sharkbucks",
+    imgSrc: "/portfolio-Sharkbucks-1.png",
+    githubLink: "https://github.com/Akash-Singh04/Sharkbucks",
+    description:"Sharkbucks is a cutting-edge auction platform designed to unite investors and SMEs seamlessly. Our platform offers investors easy access to pitches and a plethora of resources, empowering them to bid on loan tenures, interest amounts, and capital, all while competing with other investors. With our finely-tuned Machine Learning model, we ensure that SMEs are matched with investors whose preferences align, optimizing the investment process. For SMEs, Sharkbucks offers unparalleled access to competitive loan offers, facilitating easy access to much-needed funds. Our platform operates on a small platform fee, charged only upon the successful approval of a loan application, ensuring sustainability while providing essential services to both investors and SMEs. Sharkbucks platform also offers a NLP Chatbot feature that serves as a valuable resource for navigating government schemes and exploring investment opportunities, serving as a useful tool for both SMEs and Investors alike.",
+    techStack: "NextJs,Typescript,Firebase",
+    domain: "Full Stack Web Development",
+    projectdate: "26.05.2023",
+    projectlink: "https://sharktank-chi.vercel.app/",
+    youtubeLink: "https://drive.google.com/file/d/1tGseSuNU1rtm8VCTEkXZg5Bg1J3g_opw/view",
+    keywords: ["Full Stack Web Development", "Nextjs" ,"Firebase",],
+  }, 
   EduSync: {
     id:"EduSync",
     name: "EduSync",
