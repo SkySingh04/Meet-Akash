@@ -14,6 +14,8 @@ const projectDataSet = {
     description:`Built a DNS Server from Scratch in RUST!`,
     techStack: "RUST",
     domain: "RUST",
+    youtubeLink: null,
+    projectLink: null,
     projectdate: "23.06.2024",
     keywords: ["Devops", "RUST"],
   },
@@ -29,6 +31,7 @@ Haalsamachar IAC : Contains Terraform scripts, Kubernetes manifests, and GitOps 
     domain: "Devops and Full Stack Web Development",
     projectdate: "20.03.2024",
     projectlink: "https://haal-samachar.vercel.app/",
+    youtubeLink: null,
     keywords: ["Devops", "Full Stack Web Development"],
   },
   "KeployVsCode": {
