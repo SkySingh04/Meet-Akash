@@ -15,7 +15,7 @@ const projectDataSet = {
     techStack: "RUST",
     domain: "RUST",
     youtubeLink: null,
-    projectLink: "",
+    projectlink: "",
     projectdate: "23.06.2024",
     keywords: ["Devops", "RUST"],
   },
