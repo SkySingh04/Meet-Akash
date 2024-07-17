@@ -43,9 +43,10 @@ function Typewriter() {
 
   return (
     <div className="inline text-center">
-      <p id="typewriter" className="py-4 w-full text-bold text-5xl italic">
+      <p id="typewriter" className="py-4 w-full text-bold text-5xl italic" style={{ height: "1.2em" }}>
         {currentText}
       </p>
+      
     </div>
   );
 }
