@@ -75,10 +75,10 @@ const About = () => {
 
             <p>
         Throughout my academic journey, I've gained extensive experience in software development as a 
-        <i className='highlighttext'>Backend Developer</i> and <i className='highlighttext'>DevOps Engineer</i>. 
+        <i className='highlighttext'> Backend Developer</i> and <i className='highlighttext'>DevOps Engineer</i>. 
         I was selected as a contributor to <i className='highlighttext'>Google Summer of Code 2024</i> with <i className='highlighttext'>Keploy</i>. 
         I've also excelled as a <i className='highlighttext'>Technical Trainer</i>, guiding students across various colleges in Bangalore while also teaching coding to children ranging from 
-        <i className='highlighttext'>age 7 up to age 15</i>, solidifying my grasp of complex concepts through practical instruction. 
+        <i className='highlighttext'> age 7 up to age 15</i>, solidifying my grasp of complex concepts through practical instruction. 
 
         Beyond technical expertise, I've actively contributed to extracurricular activities like the Literary Society and Emcee Club, enhancing my oratory skills in front of large audiences 
         <i className='highlighttext'>up to 2000 strong</i>. Leadership skills were honed leading a team of 80+ members in PointBlank, fostering collaboration and productivity. 
