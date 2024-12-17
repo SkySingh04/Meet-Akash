@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faDev, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
@@ -42,10 +42,6 @@ const Navbar = () => {
               <a href="/#Experience">Experience</a>
             </li>
             <li>
-              <a href="/#OpenSource">OpenSource</a>
-            </li>
-            
-            <li>
               <a href="/#Volunteering">Volunteering</a>
             </li>
           </ul>
@@ -53,7 +49,7 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <a
             className="btn btn-ghost normal-case"
-            href="https://www.linkedin.com/in/akash-singh-a57081253/"
+            href="https://www.linkedin.com/in/skysingh04"
           >
             <FontAwesomeIcon
               icon={faLinkedin}
@@ -63,7 +59,7 @@ const Navbar = () => {
           </a>
           <a
             className="btn btn-ghost normal-case text-xl"
-            href="https://github.com/Akash-Singh04"
+            href="https://github.com/SkySingh04"
           >
             <FontAwesomeIcon
               icon={faGithub}
@@ -83,7 +79,7 @@ const Navbar = () => {
           </a>
           <a
             className="btn btn-ghost normal-case text-xl"
-            href="https://twitter.com/Kind_Of_Akash"
+            href="https://x.com/SkySingh04"
           >
             <FontAwesomeIcon
               icon={faTwitter}
@@ -91,9 +87,19 @@ const Navbar = () => {
               style={{ color: "grey", fontSize: 25 }}
             />
           </a>
+          <a 
+            className="btn btn-ghost normal-case text-xl"
+            href="dev.to/skysingh04"
+          >
+            <FontAwesomeIcon
+              icon={faDev}
+              className="fas fa-check"
+              style={{ color: "grey", fontSize: 25 }}
+            />
+            </a>
           <a
             className="btn btn-ghost normal-case text-xl"
-            href="https://www.codechef.com/users/akashsingh04"
+            href="https://leetcode.com/u/akash_singh_04/"
           >
             <FontAwesomeIcon
               icon={faCodepen}
@@ -120,7 +126,7 @@ const Navbar = () => {
           <li>
               <a
                 className="btn btn-ghost normal-case"
-                href="https://www.linkedin.com/in/akash-singh-a57081253/"
+                href="https://www.linkedin.com/in/skysingh04"
               >
                 <FontAwesomeIcon
                   icon={faLinkedin}
@@ -132,7 +138,7 @@ const Navbar = () => {
             <li>
               <a
                 className="btn btn-ghost normal-case text-xl"
-                href="https://github.com/Akash-Singh04"
+                href="https://github.com/SkySingh04"
               >
                 <FontAwesomeIcon
                   icon={faGithub}
@@ -156,7 +162,7 @@ const Navbar = () => {
             <li>
               <a
                 className="btn btn-ghost normal-case text-xl"
-                href="https://twitter.com/Kind_Of_Akash"
+                href="https://x.com/SkySingh04"
               >
                 <FontAwesomeIcon
                   icon={faTwitter}
@@ -168,7 +174,19 @@ const Navbar = () => {
             <li>
               <a
                 className="btn btn-ghost normal-case text-xl"
-                href="https://www.codechef.com/users/akashsingh04"
+                href="dev.to/skysingh04"
+              >
+                <FontAwesomeIcon
+                  icon={faDev}
+                  className="fas fa-check"
+                  style={{ color: "grey", fontSize: 25 }}
+                />
+              </a>{" "}
+            </li>
+            <li>
+              <a
+                className="btn btn-ghost normal-case text-xl"
+                href="https://leetcode.com/u/akash_singh_04/"
               >
                 <FontAwesomeIcon
                   icon={faCodepen}
@@ -199,9 +217,6 @@ const Navbar = () => {
             </li>
             <li>
               <a href="/#Experience">Experience</a>
-            </li>
-            <li>
-              <a href="/#OpenSource">OpenSource</a>
             </li>
             <li>
               <a href="/#Volunteering">Volunteering</a>
