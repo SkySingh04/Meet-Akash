@@ -1,16 +1,24 @@
 import React from 'react';
 import Image from 'next/image';
-const WorkExperience = () => {
-  return (
-    <div className="mockup-window border bg-base-300 w-full md:w-[550px] h-auto py-5 md:mx-auto md:mt-[30px]">
-      <div className="flex justify-center px-4 pt-4 bg-base-200">
-        {/* <Image src="/WorkExperience.webp" alt="AKASH-SINGH-RESUME" width={1000} height={1000}  /> */}
-        <Image src="/WorkExperience-1.png" alt="AKASH-SINGH-RESUME" width={1000} height={1000}  />
-      </div>
-      <div className="flex justify-center px-4 pb-4 bg-base-200">
 
-      <Image src="/WorkExperience-2.png" alt="AKASH-SINGH-RESUME" width={1000} height={1000}  />
-      </div>
+interface WorkExperienceProps {
+  images: string[];
+}
+
+const WorkExperience: React.FC<WorkExperienceProps> = ({ images }) => {
+  return (
+    <div className="mockup-window border bg-base-300 w-full md:w-[400px] h-auto py-5 md:mx-auto md:mt-[30px]">
+      {images.map((image, index) => (
+        <div key={index} className="flex justify-center px-4 bg-base-200">
+          <Image
+            src={image}
+            alt={`Work Experience Image ${index + 1}`}
+            width={1000}
+            height={1000}
+            priority
+          />
+        </div>
+      ))}
     </div>
   );
 };

@@ -2,11 +2,10 @@
 import React, { useState, useEffect } from "react";
 
 const words = [
-  "Full Stack Developer",
+  "Devops Engineer",
+  "Backend Developer",
   "Open Source Contributor",
   "Public Speaker",
-  "DevOps Enthusiast",
-  "Technical Trainer",
 ];
 
 function Typewriter() {
