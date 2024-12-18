@@ -99,7 +99,7 @@ const Navbar = () => {
             </a>
           <a
             className="btn btn-ghost normal-case text-xl"
-            href="https://leetcode.com/u/akash_singh_04/"
+            href="https://leetcode.com/u/skysingh04/"
           >
             <FontAwesomeIcon
               icon={faCodepen}
@@ -186,7 +186,7 @@ const Navbar = () => {
             <li>
               <a
                 className="btn btn-ghost normal-case text-xl"
-                href="https://leetcode.com/u/akash_singh_04/"
+                href="https://leetcode.com/u/skysingh04/"
               >
                 <FontAwesomeIcon
                   icon={faCodepen}
