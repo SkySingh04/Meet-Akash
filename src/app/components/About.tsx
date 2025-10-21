@@ -10,13 +10,26 @@ const About = () => {
     >
       <div className="container ">
         <div className="section-title">
-          <h2 className="other-header">About</h2>
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mb-4">
+            <h2 className="other-header">About</h2>
+            <a
+              href="https://drive.google.com/file/d/1OB79ihJMqT9xPfIS0c5Tu6rQ_93hWvax/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-amber-600 hover:bg-amber-700 text-white font-semibold py-2 px-6 rounded-lg transition-colors duration-300 flex items-center gap-2"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+              </svg>
+              Download Resume
+            </a>
+          </div>
           <p>
             <i className="highlighttext">
               "It is never too late to be what you might have been"
             </i>{" "}
             - Famously said by George Eliot, I tend to wrap my personality and
-            routine around those words. 
+            routine around those words.
           </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 justify-center ">
