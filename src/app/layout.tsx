@@ -15,7 +15,7 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: 'Sky Singh',
-  description: "Devops Engineer @Vance | GSoC'24 @Keploy | Finalist @HackGlobal 🇸🇬 | Lead @Point Blank | 4x Hackathon Winner | Ex-Intern @CloudSek @BoleSale @SwipeGen and @CodingZen",
+  description: "DevOps @FinalRoundAI | LFX’25 LitmusChaos | GSoC’24 Keploy | LIFT ’25 | KCNA | Finalist HackGlobal 🇸🇬 | Lead at Point Blank | 6x Hackathon Winner | Ex-Aspora, CloudSek, Embeddings Co, BoleSale, SwipeGen, CodingZen",
 };
 
 export default function RootLayout({
@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html data-theme="dark" lang="en">
+    <html data-theme="dark" className="dark" lang="en">
       <head>
         <meta
           name="google-site-verification"
@@ -35,14 +35,14 @@ export default function RootLayout({
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <meta name="description" content="Devops Engineer @Vance | GSoC'24 @Keploy | Finalist @HackGlobal 🇸🇬 | Lead @Point Blank | 4x Hackathon Winner | Ex-Intern @CloudSek @BoleSale @SwipeGen and @CodingZen" />
+        <meta name="description" content="DevOps @FinalRoundAI | LFX’25 LitmusChaos | GSoC’24 Keploy | LIFT ’25 | KCNA | Finalist HackGlobal 🇸🇬 | Lead at Point Blank | 6x Hackathon Winner | Ex-Aspora, CloudSek, Embeddings Co, BoleSale, SwipeGen, CodingZen" />
         <meta name="author" content="Sky Singh" />
 
         {/* Open Graph Meta Tags (for Social Sharing) */}
         <meta property="og:title" content="Sky Singh" />
         <meta
           property="og:description"
-          content="Devops Engineer @Vance | GSoC'24 @Keploy | Finalist @HackGlobal 🇸🇬 | Lead @Point Blank | 4x Hackathon Winner | Ex-Intern @CloudSek @BoleSale @SwipeGen and @CodingZen"
+          content="DevOps @FinalRoundAI | LFX’25 LitmusChaos | GSoC’24 Keploy | LIFT ’25 | KCNA | Finalist HackGlobal 🇸🇬 | Lead at Point Blank | 6x Hackathon Winner | Ex-Aspora, CloudSek, Embeddings Co, BoleSale, SwipeGen, CodingZen"
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://skysingh04.vercel.app/" />

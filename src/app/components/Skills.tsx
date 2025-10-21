@@ -13,95 +13,56 @@ const Skills = () => {
       <div className="flex justify-center  " data-aos="fade-up">
         <div id="cards">
           <SkillCard
-            name="TypeScript"
-            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+            name="Docker"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
           />
           <SkillCard
-            name="Next.js"
-            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+            name="Kubernetes"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"
           />
           <SkillCard
-            name="React"
-            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+            name="GitHub Actions"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg"
           />
           <SkillCard
-            name="Svelte"
-            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg"
+            name="Terraform"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg"
           />
           <SkillCard
-            name="GraphQL"
-            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg"
+            name="Ansible"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg"
           />
           <SkillCard
-            name="Firebase"
-            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+            name="ArgoCD"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/argocd/argocd-original.svg"
           />
           <SkillCard
-            name="Redux"
-            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
+            name="Helm"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/helm/helm-original.svg"
           />
           <SkillCard
-            name="Golang"
-            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg"
+            name="AWS"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
           />
           <SkillCard
-          name="Rust"
-          img_src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" 
+            name="Azure"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
           />
           <SkillCard
-            name="Python"
-            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+            name="GCP"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"
           />
           <SkillCard
-            name="JavaScript"
-            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+            name="Nginx"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg"
           />
           <SkillCard
-            name="Java"
-            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+            name="Linux"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
           />
-          <SkillCard
-            name="C"
-            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
-          />
-
           <SkillCard
             name="Bash"
             img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg"
-          />
-          <SkillCard
-            name="Node.js"
-            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" 
-            />
-          <SkillCard
-            name="Express"
-            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
-          />
-          <SkillCard
-            name="Flask"
-            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg"
-          />
-          <SkillCard
-            name="Spring"
-            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg"
-          />
-          <SkillCard
-            name="SqLite"
-            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-plain-wordmark.svg"
-          />
-
-          <SkillCard
-            name="PostgreSQL"
-            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
-          />
-          <SkillCard
-            name="MongoDB"
-            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
-          />
-
-          <SkillCard
-            name="Docker"
-            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
           />
           <SkillCard
             name="Git"
@@ -112,33 +73,89 @@ const Skills = () => {
             img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
           />
           <SkillCard
-          name="Github Actions"
-          img_src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg"
+            name="Prometheus"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/prometheus/prometheus-original.svg"
           />
           <SkillCard
-          name="AWS"
-          img_src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+            name="Grafana"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg"
           />
           <SkillCard
-            name="HTML5"
-            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+            name="Elasticsearch"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/elasticsearch/elasticsearch-original.svg"
           />
           <SkillCard
-            name="CSS3"
-            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+            name="Kafka"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg"
           />
           <SkillCard
-            name="Bootstrap"
-            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" 
+            name="RabbitMQ"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rabbitmq/rabbitmq-original.svg"
           />
           <SkillCard
-            name="Tailwind CSS"
-            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original-wordmark.svg"
+            name="Redis"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg"
           />
-          {/* <SkillCard
-            name="Php"
-            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
-          /> */}
+          <SkillCard
+            name="Vault"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vault/vault-original.svg"
+          />
+          <SkillCard
+            name="TypeScript"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+          />
+          <SkillCard
+            name="JavaScript"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+          />
+          <SkillCard
+            name="Python"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+          />
+          <SkillCard
+            name="Golang"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg"
+          />
+          <SkillCard
+            name="Node.js"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
+          />
+          <SkillCard
+            name="Flask"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg"
+          />
+          <SkillCard
+            name="React"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+          />
+          <SkillCard
+            name="Next.js"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
+          />
+          <SkillCard
+            name="Svelte"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/svelte/svelte-original.svg"
+          />
+          <SkillCard
+            name="PostgreSQL"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+          />
+          <SkillCard
+            name="MongoDB"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+          />
+          <SkillCard
+            name="SqLite"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-plain-wordmark.svg"
+          />
+          <SkillCard
+            name="GraphQL"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg"
+          />
+          <SkillCard
+            name="Firebase"
+            img_src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+          />
         </div>
       </div>
     </div>

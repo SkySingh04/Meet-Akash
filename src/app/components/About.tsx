@@ -16,18 +16,7 @@ const About = () => {
               "It is never too late to be what you might have been"
             </i>{" "}
             - Famously said by George Eliot, I tend to wrap my personality and
-            routine around those words. I have a keen interest in{" "}
-            <i className="highlighttext">
-              Computer Science and Public Speaking.
-            </i>{" "}
-            I envision myself being a part of a great team, which can lift the
-            company to great heights while simultaneously enhancing my personal
-            growth and leading to my development as a Software Engineer. While
-            Efficient Development and Problem Solving are skills that remain on
-            the tip of my fingers, What sets me apart are my{" "}
-            <i className="highlighttext">
-              Effective Communication Skills and Team Leading Qualities.
-            </i>
+            routine around those words. 
           </p>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 justify-center ">
@@ -36,10 +25,10 @@ const About = () => {
           </div>
           <div className="lg:col-span-1 pt-4 lg:pt-0 content ">
             <h3 className="text-amber-500">
-              Devops Engineer | Backend Developer | Student
+              Devops Engineer | Backend Developer | Infra Architect
             </h3>
             <p className="italic py-2">
-              Team Leader,Public Speaker,Efficient Worker
+              Team Leader, Public Speaker, Problem Solver
             </p>
             <div className="grid lg:grid-cols-2 grid-cols-1">
               <div>
@@ -74,24 +63,16 @@ const About = () => {
             </div>
 
             <p>
-        Throughout my academic journey, I've gained extensive experience in software development as a 
-        <i className='highlighttext'> Backend Developer</i> and <i className='highlighttext'>DevOps Engineer</i>. 
-        I was selected as a contributor to <i className='highlighttext'>Google Summer of Code 2024</i> with <i className='highlighttext'>Keploy</i>. 
-        I've also excelled as a <i className='highlighttext'>Technical Trainer</i>, guiding students across various colleges in Bangalore while also teaching coding to children ranging from 
-        <i className='highlighttext'> age 7 up to age 15</i>, solidifying my grasp of complex concepts through practical instruction. 
-
-        Beyond technical expertise, I've actively contributed to extracurricular activities like the Literary Society and Emcee Club, enhancing my oratory skills in front of large audiences 
-        <i className='highlighttext'>up to 2000 strong</i>. Leadership skills were honed leading a team of 80+ members in PointBlank, fostering collaboration and productivity. 
-
-        During my professional journey, I interned as a <i className='highlighttext'>Backend Engineer</i> at <i className='highlighttext'>CloudSEK</i>, where I developed internal tools, integrated SQS, and optimized backend systems. 
-        I currently work as a <i className='highlighttext'>DevOps Engineer</i> at <i className='highlighttext'>Vance</i>, focusing on streamlining deployments, automating infrastructure, and enhancing operational efficiency.
-
-        Furthermore, I'm committed to the open-source community, contributing to various projects and I am excited to apply for programs like <i className='highlighttext'>LFX, MLH, Mitacs</i>. 
-        I have also competed and excelled in hackathons <i className='highlighttext'>winning in 4</i> of them across India and showcased my innovative capabilities on an international stage by qualifying for the grand finals at 
-        the <i className='highlighttext'>HackGlobal Singapore Hackathon</i>, where my team secured a position in the <i className='highlighttext'>Top 9 worldwide</i>. 
-        These experiences, combined with my ability to innovate under pressure, set me apart, positioning me as a versatile professional ready to excel and innovate across diverse domains.
-      </p>
-
+        Throughout my academic journey, I've gained extensive experience as a  
+        <i className='highlighttext'> DevOps Engineer</i> and <i className='highlighttext'>Backend Developer</i>.
+        I currently handle all things related to Devops and Infra at <i className='highlighttext'>  <a href="https://finalround.ai" target="_blank" rel="noopener noreferrer">FinalroundAI</a></i>. I have previously worked as a Devops Engineer at <i className='highlighttext'>Aspora</i> and <i className='highlighttext'>Embeddings Co.</i> where I worked with AWS, Terraform and Infrastructure as Code and as a Backend Engineer at <i className='highlighttext'>CloudSek</i> with my work primarily focusing on Golang and microservices. I am active within the Open Source community and was selected for Google Summer of Code 2024 with <i className='highlighttext'>Keploy</i> and the Linux Foundation Mentorship 2025 with <i className='highlighttext'>LitmusChaos</i>. 
+        <br />
+        I was the team leader for <i className='highlighttext'> <a href="https://hackglobal.com/" target="_blank" rel="noopener noreferrer">Hackglobal Hackathon 2024</a></i> which happened in Singapore. I have also participated and won in 5 other hackathons, winning and getting podium finishes all through. I regularly volunteer as a mentor and judge for various hackathons as well. I also attended <i className='highlighttext'> <a href="https://winter.csa.iisc.ac.in/" target="_blank" rel="noopener noreferrer">ACM Winter School 2024</a></i> on Data Structures and Algorithms for Strings, with Applications to Search Engines and Computational Biology. 
+        <br />
+        I have also actively worked as a teacher and trainer both professionally at <i className='highlighttext'> <a href="https://swipegen.com/" target="_blank" rel="noopener noreferrer">SwipeGen</a></i> and <i className='highlighttext'> <a href="https://codingzen.com/" target="_blank" rel="noopener noreferrer">CodingZen</a></i> and during club meetings as the Team Lead at <i className='highlighttext'> <a href="https://www.linkedin.com/company/point-blank-d/" target="_blank" rel="noopener noreferrer">Point Blank</a></i> since I genuinely enjoy talking about tech and sharing my knowledge with peers and juniors alike. Recently I am enjoying learning and working on DevOps, Compilers and backend with languages like Golang and Rust. 
+        <br />
+        When I'm not tinkering with my laptop, you'll find me with a mic in my hand emceeing on stage or winning <a href="https://www.linkedin.com/posts/skysingh04_public-speaking-1st-place-winner-activity-7269031434172000256-B41v?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer">Public Speaking Events across India</a>.
+        </p>
           </div>
         </div>
       </div>
