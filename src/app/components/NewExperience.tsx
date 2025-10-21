@@ -19,7 +19,7 @@ type WorkExperienceListProps = {
 
 const WorkExperienceList: React.FC<WorkExperienceListProps> = ({ experiences }) => {
   return (
-    <div className="flex flex-col items-center w-full">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-7xl mx-auto py-8">
       {experiences.map((experience, index) => (
         <WorkExperienceCard key={index} experience={experience} />
       ))}
