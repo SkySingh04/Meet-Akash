@@ -13,11 +13,18 @@
     "@fortawesome/free-brands-svg-icons": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@radix-ui/react-dialog": "^1.1.15",
     "aos": "^2.3.4",
-    "next": "latest",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.546.0",
+    "next": "^15.5.6",
     "react": "latest",
     "react-dom": "latest",
-    "react-embed-gist": "^1.0.19"
+    "react-embed-gist": "^1.0.19",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss-animate": "^1.0.7",
+    "vaul": "^1.1.2"
   },
   "devDependencies": {
     "@types/aos": "^3.0.6",

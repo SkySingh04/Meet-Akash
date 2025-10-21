@@ -5,6 +5,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faCodepen } from "@fortawesome/free-brands-svg-icons";
+import Contact from "./Contact";
 
 const Navbar = () => {
   return (
@@ -89,7 +90,7 @@ const Navbar = () => {
           </a>
           <a 
             className="btn btn-ghost normal-case text-xl"
-            href="dev.to/skysingh04"
+            href="https://dev.to/skysingh04"
           >
             <FontAwesomeIcon
               icon={faDev}
@@ -107,6 +108,7 @@ const Navbar = () => {
               style={{ color: "grey", fontSize: 25 }}
             />
           </a>
+          <Contact />
         </div>
       </div>
       <div className="navbar-end">
@@ -174,7 +176,7 @@ const Navbar = () => {
             <li>
               <a
                 className="btn btn-ghost normal-case text-xl"
-                href="dev.to/skysingh04"
+                href="https://dev.to/skysingh04"
               >
                 <FontAwesomeIcon
                   icon={faDev}
@@ -194,6 +196,9 @@ const Navbar = () => {
                   style={{ color: "grey", fontSize: 25 }}
                 />
               </a>{" "}
+            </li>
+            <li>
+              <Contact />
             </li>
           </ul>
         </details>
