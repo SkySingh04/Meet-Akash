@@ -33,19 +33,19 @@ const Navbar = () => {
               <a href="/#Skills">Skills</a>
             </li>
             <li>
+              <a href="/#Experience">Experience</a>
+            </li>
+            <li>
               <a href="/#Projects">Projects</a>
             </li>
             <li>
               <a href="/#Achievements">Achievements</a>
             </li>
             <li>
-              <a href="/#Certifications">Certifications</a>
-            </li>
-            <li>
               <a href="/#Recommendations">Recommendations</a>
             </li>
             <li>
-              <a href="/#Experience">Experience</a>
+              <a href="/#Certifications">Certifications</a>
             </li>
             <li>
               <a href="/#Volunteering">Volunteering</a>
@@ -198,19 +198,19 @@ const Navbar = () => {
               <a href="/#Skills">Skills</a>
             </li>
             <li>
+              <a href="/#Experience">Experience</a>
+            </li>
+            <li>
               <a href="/#Projects">Projects</a>
             </li>
             <li>
               <a href="/#Achievements">Achievements</a>
             </li>
             <li>
-              <a href="/#Certifications">Certifications</a>
-            </li>
-            <li>
               <a href="/#Recommendations">Recommendations</a>
             </li>
             <li>
-              <a href="/#Experience">Experience</a>
+              <a href="/#Certifications">Certifications</a>
             </li>
             <li>
               <a href="/#Volunteering">Volunteering</a>

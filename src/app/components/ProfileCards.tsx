@@ -29,9 +29,9 @@ const ProfileCards = () => {
             <a href=""><span className="links"></span></a>
         </div>
     </div>
-    <div className="lg:hidden"> {/* This div is hidden on large screens */}
+    <div className="lg:hidden flex justify-center"> {/* This div is hidden on large screens */}
   <div className=" p-4 rounded-md shadow-md w-4/6 overflow-hidden">
-    <Image src="/Akash-1.webp" alt="Image" width={500} height={500} className="w-full h-auto transform transition-transform duration-300 hover:scale-105 rounded" />
+    <Image src="/Akash-1.JPG" alt="Image" width={700} height={700} className="w-full h-auto transform transition-transform duration-300 hover:scale-105 rounded" />
   </div>
 </div>
 
