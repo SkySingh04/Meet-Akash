@@ -6,14 +6,27 @@ type Achievement = {
 
 
 const projectDataSet = {
+  "DreamOps": {
+    id: "DreamOps",
+    name: "DreamOps",
+    imgSrc: "/portfolio-dreamops-1.png",
+    githubLink: "https://github.com/SkySingh04/DreamOps",
+    description: `DreamOps is an intelligent AI-powered incident response and infrastructure management platform that automates on-call duties using Claude AI and Model Context Protocol (MCP) integrations. The platform revolutionizes how DevOps teams handle incidents, automating complex workflows and providing intelligent recommendations for infrastructure management.`,
+    techStack: "MCP, Claude AI, AGNO, TypeScript, DevOps Tools",
+    domain: "DevOps, AI Agents, Infrastructure Management",
+    youtubeLink: null,
+    projectlink: "https://devfolio.co/projects/dreamops-9f20",
+    projectdate: "15.01.2025",
+    keywords: ["Devops", "AI Agents", "Full Stack Web Development"],
+  },
   "Dns-Server-Rust": {
     id: "Dns-Server-Rust",
     name: "Dns-Server-Rust",
     imgSrc: "/portfolio-dnsserverrust-1.png",
     githubLink: "https://github.com/SkySingh04/DNS-Server-Rust",
-    description:`Built a DNS Server from Scratch in RUST!`,
-    techStack: "RUST",
-    domain: "RUST",
+    description:`Built a DNS Server from Scratch in RUST! The DNS server adheres to DNS protocol specifications for packet structure and communication over UDP with support for various record types such as A, NS, CNAME, SOA, MX, and TXT. Developed a Stub Resolver to extend DNS client functionality, adding methods for writing bytes and query names in labeled form, allowing for real-time testing and debugging.`,
+    techStack: "RUST, Networking, TCP/UDP",
+    domain: "Networking, Systems Programming",
     youtubeLink: null,
     projectlink: "",
     projectdate: "23.06.2024",
@@ -215,9 +228,28 @@ Haalsamachar IAC : Contains Terraform scripts, Kubernetes manifests, and GitOps 
 };
 
 const achievementData: Achievement[] = [
-  
   {
-    title: "3rd Place , Hackman v7 Hackathon 2024",
+    title: "Grand Winners at Warpspeed 2025 Hackathon",
+    organization: "Lightspeed India",
+    date: "July 2025",
+  },
+  {
+    title: "Grand Winners at NITK Hackverse 5.0 Hackathon",
+    organization: "NIT Karnataka",
+    date: "January 2025",
+  },
+  {
+    title: "Top 9 Worldwide, 1st Place From India, Hackglobal Hackathon 2024",
+    organization: "AngelHack, Singapore",
+    date: "October 2024",
+  },
+  {
+    title: "3rd Place, Sharks of CSD",
+    organization: "Department of Computer Science and Design, Dayananda Sagar College Of Engineering",
+    date: "September 2024",
+  },
+  {
+    title: "3rd Place, Hackman v7 Hackathon 2024",
     organization: "Department Of Information Science, Dayananda Sagar College Of Engineering",
     date: "June 2024",
   },

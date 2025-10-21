@@ -40,6 +40,9 @@ const Navbar = () => {
               <a href="/#Achievements">Achievements</a>
             </li>
             <li>
+              <a href="/#Recommendations">Recommendations</a>
+            </li>
+            <li>
               <a href="/#Experience">Experience</a>
             </li>
             <li>
@@ -219,6 +222,9 @@ const Navbar = () => {
             </li>
             <li>
               <a href="/#Achievements">Achievements</a>
+            </li>
+            <li>
+              <a href="/#Recommendations">Recommendations</a>
             </li>
             <li>
               <a href="/#Experience">Experience</a>
