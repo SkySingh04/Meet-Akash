@@ -24,7 +24,7 @@ const About = () => {
               Download Resume
             </a>
           </div>
-          <p>
+          <p className="text-justify">
             <i className="highlighttext">
               "It is never too late to be what you might have been"
             </i>{" "}
@@ -75,14 +75,14 @@ const About = () => {
               </div>
             </div>
 
-            <p>
-        Throughout my academic journey, I've gained extensive experience as a  
+            <p className="text-justify">
+        Throughout my academic journey, I've gained extensive experience as a
         <i className='highlighttext'> DevOps Engineer</i> and <i className='highlighttext'>Backend Developer</i>.
-        I currently handle all things related to Devops and Infra at <i className='highlighttext'>  <a href="https://finalround.ai" target="_blank" rel="noopener noreferrer">FinalroundAI</a></i>. I have previously worked as a Devops Engineer at <i className='highlighttext'>Aspora</i> and <i className='highlighttext'>Embeddings Co.</i> where I worked with AWS, Terraform and Infrastructure as Code and as a Backend Engineer at <i className='highlighttext'>CloudSek</i> with my work primarily focusing on Golang and microservices. I am active within the Open Source community and was selected for Google Summer of Code 2024 with <i className='highlighttext'>Keploy</i> and the Linux Foundation Mentorship 2025 with <i className='highlighttext'>LitmusChaos</i>. 
+        I currently handle all things related to Devops and Infra at <i className='highlighttext'>  <a href="https://finalround.ai" target="_blank" rel="noopener noreferrer">FinalroundAI</a></i>. I have previously worked as a Devops Engineer at <i className='highlighttext'>Aspora</i> and <i className='highlighttext'>Embeddings Co.</i> where I worked with AWS, Terraform and Infrastructure as Code and as a Backend Engineer at <i className='highlighttext'>CloudSek</i> with my work primarily focusing on Golang and microservices. I am active within the Open Source community and was selected for Google Summer of Code 2024 with <i className='highlighttext'>Keploy</i> and the Linux Foundation Mentorship 2025 with <i className='highlighttext'>LitmusChaos</i>.
         <br />
-        I was the team leader for <i className='highlighttext'> <a href="https://hackglobal.com/" target="_blank" rel="noopener noreferrer">Hackglobal Hackathon 2024</a></i> which happened in Singapore. I have also participated and won in 5 other hackathons, winning and getting podium finishes all through. I regularly volunteer as a mentor and judge for various hackathons as well. I also attended <i className='highlighttext'> <a href="https://winter.csa.iisc.ac.in/" target="_blank" rel="noopener noreferrer">ACM Winter School 2024</a></i> on Data Structures and Algorithms for Strings, with Applications to Search Engines and Computational Biology. 
+        I was the team leader for <i className='highlighttext'> <a href="https://hackglobal.com/" target="_blank" rel="noopener noreferrer">Hackglobal Hackathon 2024</a></i> which happened in Singapore. I have also participated and won in 5 other hackathons, winning and getting podium finishes all through. I regularly volunteer as a mentor and judge for various hackathons as well. I also attended <i className='highlighttext'> <a href="https://winter.csa.iisc.ac.in/" target="_blank" rel="noopener noreferrer">ACM Winter School 2024</a></i> on Data Structures and Algorithms for Strings, with Applications to Search Engines and Computational Biology.
         <br />
-        I have also actively worked as a teacher and trainer both professionally at <i className='highlighttext'> <a href="https://swipegen.com/" target="_blank" rel="noopener noreferrer">SwipeGen</a></i> and <i className='highlighttext'> <a href="https://codingzen.com/" target="_blank" rel="noopener noreferrer">CodingZen</a></i> and during club meetings as the Team Lead at <i className='highlighttext'> <a href="https://www.linkedin.com/company/point-blank-d/" target="_blank" rel="noopener noreferrer">Point Blank</a></i> since I genuinely enjoy talking about tech and sharing my knowledge with peers and juniors alike. Recently I am enjoying learning and working on DevOps, Compilers and backend with languages like Golang and Rust. 
+        I have also actively worked as a teacher and trainer both professionally at <i className='highlighttext'> <a href="https://swipegen.com/" target="_blank" rel="noopener noreferrer">SwipeGen</a></i> and <i className='highlighttext'> <a href="https://codingzen.com/" target="_blank" rel="noopener noreferrer">CodingZen</a></i> and during club meetings as the Team Lead at <i className='highlighttext'> <a href="https://www.linkedin.com/company/point-blank-d/" target="_blank" rel="noopener noreferrer">Point Blank</a></i> since I genuinely enjoy talking about tech and sharing my knowledge with peers and juniors alike. Recently I am enjoying learning and working on DevOps, Compilers and backend with languages like Golang and Rust.
         <br />
         When I'm not tinkering with my laptop, you'll find me with a mic in my hand emceeing on stage or winning <a href="https://www.linkedin.com/posts/skysingh04_public-speaking-1st-place-winner-activity-7269031434172000256-B41v?utm_source=share&utm_medium=member_desktop" target="_blank" rel="noopener noreferrer">Public Speaking Events across India</a>.
         </p>
