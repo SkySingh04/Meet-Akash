@@ -40,6 +40,9 @@ const Navbar = () => {
               <a href="/#Achievements">Achievements</a>
             </li>
             <li>
+              <a href="/#Certifications">Certifications</a>
+            </li>
+            <li>
               <a href="/#Recommendations">Recommendations</a>
             </li>
             <li>
@@ -222,6 +225,9 @@ const Navbar = () => {
             </li>
             <li>
               <a href="/#Achievements">Achievements</a>
+            </li>
+            <li>
+              <a href="/#Certifications">Certifications</a>
             </li>
             <li>
               <a href="/#Recommendations">Recommendations</a>

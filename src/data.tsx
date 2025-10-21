@@ -4,6 +4,16 @@ type Achievement = {
   date: string;
 };
 
+type Certification = {
+  title: string;
+  organization: string;
+  date: string;
+  credentialId?: string;
+  credentialUrl?: string;
+  expiryDate?: string;
+  skills?: string[];
+};
+
 
 const projectDataSet = {
   "DreamOps": {
@@ -229,6 +239,11 @@ Haalsamachar IAC : Contains Terraform scripts, Kubernetes manifests, and GitOps 
 
 const achievementData: Achievement[] = [
   {
+    title: "Top 6 Position at Segfault 2025 - India's Biggest Compiler Hackathon",
+    organization: "Innovations In Compiler Technology Workshop",
+    date: "September 2025",
+  },
+  {
     title: "Grand Winners at Warpspeed 2025 Hackathon",
     organization: "Lightspeed India",
     date: "July 2025",
@@ -336,4 +351,50 @@ const achievementData: Achievement[] = [
   },
 ];
 
-export { projectDataSet, achievementData };
+const certificationData: Certification[] = [
+  {
+    title: "KCNA: Kubernetes and Cloud Native Associate",
+    organization: "The Linux Foundation",
+    date: "October 2025",
+    expiryDate: "October 2027",
+    credentialUrl: "https://www.credly.com/badges/your-kcna-badge",
+    skills: ["Kubernetes"],
+  },
+  {
+    title: "ACM Winter School 2024 on Data Structures and Algorithms for Strings",
+    organization: "ACM",
+    date: "December 2024",
+    skills: ["Data Structures", "Algorithms", "String Manipulation", "Computational Biology", "Search Engines"],
+  },
+  {
+    title: "CloudSEK External Threat Monitoring Solutions",
+    organization: "CloudSEK",
+    date: "September 2024",
+    credentialUrl: "https://www.cloudsek.com/certifications",
+    skills: ["Cybersecurity", "Threat & Vulnerability Management"],
+  },
+  {
+    title: "The Complete 2023 Web Development Bootcamp",
+    organization: "Udemy",
+    date: "April 2023",
+    credentialId: "UC-2f7e34d5-d73f-44bd-886c-4ae2fb354b88",
+    credentialUrl: "https://www.udemy.com/certificate/UC-2f7e34d5-d73f-44bd-886c-4ae2fb354b88/",
+    skills: ["Web Development"],
+  },
+  {
+    title: "100 Days Of Code By Angela Yu",
+    organization: "Udemy",
+    date: "October 2022",
+    credentialId: "UC-2abd81b2-c85a-43aa-8d37-ebac4749a612",
+    credentialUrl: "https://www.udemy.com/certificate/UC-2abd81b2-c85a-43aa-8d37-ebac4749a612/",
+  },
+  {
+    title: "Automate The Boring Stuff With Python",
+    organization: "Udemy",
+    date: "October 2022",
+    credentialId: "UC-48d68e04-cbf5-4485-8dd6-e6fe8b35aa91",
+    credentialUrl: "https://www.udemy.com/certificate/UC-48d68e04-cbf5-4485-8dd6-e6fe8b35aa91/",
+  },
+];
+
+export { projectDataSet, achievementData, certificationData };
