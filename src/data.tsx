@@ -14,6 +14,16 @@ type Certification = {
   skills?: string[];
 };
 
+type WorkExperience = {
+  title: string;
+  company: string;
+  employmentType: string;
+  duration: string;
+  location?: string;
+  description: string[];
+  skills?: string[];
+};
+
 
 const projectDataSet = {
   "DreamOps": {
@@ -397,4 +407,150 @@ const certificationData: Certification[] = [
   },
 ];
 
-export { projectDataSet, achievementData, certificationData };
+const workExperienceData: WorkExperience[] = [
+  {
+    title: "DevOps Engineer",
+    company: "Final Round AI",
+    employmentType: "Full-time",
+    duration: "Apr 2025 - Present · 7 mos",
+    description: [
+      "Led complete infrastructure transformation to Infrastructure as Code (IaC) using Terraform across AWS, Azure, GCP, and Alibaba Cloud with comprehensive DevOps patterns and hybrid cloud architecture",
+      "Achieved 90% VM host stability improvement through implementation of Beszel monitoring, comprehensive alerting systems, and security hardening across bare metal and cloud infrastructure",
+      "Established DevOps principles and roadmap, creating production-mirror staging environments and implementing GitOps via ArgoCD and Atlantis for PR-based infrastructure workflows",
+      "Pioneered initiative to establish company-wide standards for AI tooling (Claude, LiteLLM, MCP servers) and developed AI OnCall Engineer system reducing MTTR by 40%",
+      "Deployed comprehensive CI/CD pipeline reducing release time from 4 hours to <1 hour, with parallel stages, build caching, and automated rollback capabilities",
+      "Implemented service mesh architecture, Vault-based secrets management, and Authentik SSO integration across all internal tools",
+      "Reduced infrastructure costs by 20% through migration to bare metal servers",
+      "Built end-to-end observability stack with Grafana, Prometheus, Loki, and Tempo, achieving <1 hour monthly downtime for critical services",
+      "Established infra weekly reviews, on-call procedures, and incident response protocols with SLA targets <1 hour"
+    ],
+    skills: ["Kubernetes", "Terraform", "ArgoCD", "Docker", "PostgreSQL", "Redis", "Grafana", "Prometheus", "Python", "Go", "CI/CD", "GitOps", "Multi-Cloud Architecture", "Ansible", "Service Mesh", "Vault"]
+  },
+  {
+    title: "LFX Mentee @LitmusChaos",
+    company: "The Linux Foundation",
+    employmentType: "Part-time",
+    duration: "Mar 2025 - May 2025 · 3 mos",
+    location: "Bengaluru, Karnataka, India · Remote",
+    description: [
+      "Modernized the chaos engineering ecosystem by transitioning from Litmus 1.0 to 3.0 architecture",
+      "Developed a comprehensive Go SDK from scratch enabling seamless programmatic interaction with LitmusChaos for developers and SREs",
+      "Built production-ready SDK interfaces for authentication, experiment management, and real-time monitoring",
+      "Refactored the entire CI/CD integration to eliminate direct Kubernetes API calls in favor of a cleaner SDK-based approach",
+      "Optimized GitHub Actions and GitLab CI templates to reduce setup complexity",
+      "Contributed approximately 14k lines of code across 4 repositories to democratize chaos engineering practices"
+    ],
+    skills: ["DevOps", "Terraform", "Chaos Engineering", "CI/CD", "Kubernetes"]
+  },
+  {
+    title: "DevOps Engineer",
+    company: "Embeddings Co",
+    employmentType: "Freelance",
+    duration: "Mar 2025 - Apr 2025 · 2 mos",
+    location: "Remote",
+    description: [
+      "Built end-to-end cloud infrastructure from scratch using Terraform (IaC), designed for modularity, scalability, and production-readiness on AWS",
+      "Automated CI/CD pipelines for microservices using GitHub Actions, accelerating deployment cycles and ensuring reliable rollouts",
+      "Deployed and managed Kubernetes clusters on EKS, setting up autoscaling, node groups, and service discovery for seamless scaling and resilience",
+      "Orchestrated containerized workloads across EKS and ECS; integrated Batch, Lambda, and EC2 for compute diversity and efficiency",
+      "Implemented key AWS services (S3, RDS, SQS, SNS, CloudWatch) with security, logging, and fault-tolerance baked in",
+      "Set up DNS routing, TLS termination, and secure networking, including VPCs, subnets, and IAM role configurations"
+    ],
+    skills: ["AWS", "Terraform", "CI", "DevOps"]
+  },
+  {
+    title: "DevOps Engineer",
+    company: "Aspora",
+    employmentType: "Internship",
+    duration: "Jan 2025 - Mar 2025 · 3 mos",
+    location: "Bengaluru, Karnataka, India · On-site",
+    description: [
+      "Setup Apache Airflow along with ETL Pipelines and DAGs to reduce $10000 AWS Glue bill by 96%",
+      "Set up Promtail with Loki and Grafana to monitor all microservices, reducing the AWS CloudWatch bill by 85%",
+      "Optimized log management by migrating ALB logs from S3 buckets to Loki using a custom Promtail integration on AWS Lambda"
+    ],
+    skills: ["CI/CD", "Git", "Grafana", "Software Development", "Bash", "Cloud Applications", "Containerization", "Container Orchestration", "Linux System Administration", "Shell Scripting", "Linux", "DevOps", "AWS", "Kubernetes", "PostgreSQL", "Automation"]
+  },
+  {
+    title: "Back End Developer",
+    company: "CloudSEK",
+    employmentType: "Internship",
+    duration: "Aug 2024 - Oct 2024 · 3 mos",
+    location: "On-site",
+    description: [
+      "Led the backend development of multiple microservices in CloudSEK Community Server using GoLang (Chi), PostgreSQL, with AWS SQS and Apache Kafka",
+      "Migrated the existing codebase to a monorepo structure, improving code reusability and streamlining cross-service collaboration",
+      "Deployed microservices with Kubernetes and Docker, integrated AWS S3 for storage, and automated CI/CD pipelines using ArgoCD",
+      "Implemented monitoring with Grafana, Loki, and Prometheus, enhancing system reliability"
+    ],
+    skills: ["CI/CD", "Git", "Golang", "Monitoring", "Cybersecurity", "Grafana", "Software Development", "Bash", "Kubernetes", "GitLab", "Containerization", "Back-End Web Development", "Jira", "PostgreSQL", "Docker", "Shell Scripting", "Linux", "Prometheus", "Microservices"]
+  },
+  {
+    title: "Hackathon Team Lead",
+    company: "AngelHack",
+    employmentType: "Part-time",
+    duration: "May 2024 - Oct 2024 · 6 mos",
+    location: "Singapore",
+    description: [
+      "Lead the development of Sharkbucks, a fintech bidding platform for SMEs and investors, winning the Financial Inclusion category and securing a place in Hackglobal",
+      "Delivered two additional bounty projects in July and August 2024 to boost our Hackglobal leaderboard position, ultimately placing 8th worldwide and qualifying for the Hackglobal Finals in Singapore",
+      "Led the pitch and development of LUMi, an AI Concierge solution for customer satisfaction, at SWITCH, held at Marina Bay Sands",
+      "Gained experience in high-stakes project presentation, team leadership, and leveraging feedback for product refinement"
+    ],
+    skills: ["Public Speaking", "TypeScript", "Team Leadership", "Git", "Golang", "Software Development", "Project Management"]
+  },
+  {
+    title: "GSoC Mentee @Keploy",
+    company: "Google Summer of Code",
+    employmentType: "Part-time",
+    duration: "May 2024 - Aug 2024 · 4 mos",
+    location: "Remote",
+    description: [
+      "Developed extensions for Visual Studio Code, IntelliJ IDEA, and Neovim to enhance usability, accessibility, and seamless integration of Keploy within modern development environments",
+      "Streamlined the process of testing applications throughout the Software Development Life Cycle (SDLC)",
+      "Established secure pipelines for Continuous Integration, Testing, and Deployment of these extensions"
+    ],
+    skills: ["CI/CD", "TypeScript", "Svelte", "Git", "Golang", "Software Development", "Open-Source Development", "eBPF", "Scala", "Open-Source Software", "Linux", "GraphQL"]
+  },
+  {
+    title: "Technical Trainer",
+    company: "SwipeGen",
+    employmentType: "Part-time",
+    duration: "Feb 2024 - Jul 2024 · 6 mos",
+    location: "Bengaluru, Karnataka, India · On-site",
+    description: [
+      "Developed and delivered engaging training sessions on HackerRank and Leetcode platforms",
+      "Equipped learners with strategies and techniques to efficiently solve algorithmic challenges using Python and Java"
+    ],
+    skills: ["Git", "Software Development", "Python", "Data Structures", "Teaching", "Analytical Skills", "Problem Solving", "Algorithms"]
+  },
+  {
+    title: "Online Teaching (Full Stack Development)",
+    company: "CodingZen",
+    employmentType: "Internship",
+    duration: "Dec 2023 - Feb 2024 · 3 mos",
+    location: "Remote",
+    description: [
+      "Spearheaded comprehensive virtual instruction in Full Stack Development, providing insightful guidance on front-end and back-end technologies to a diverse cohort of students",
+      "Developed and delivered a dynamic curriculum, integrating real-world projects and interactive sessions to facilitate hands-on learning experiences"
+    ],
+    skills: ["Git", "Software Development", "Teaching", "Full-Stack Development", "Analytical Skills"]
+  },
+  {
+    title: "Full-stack Developer",
+    company: "Bolesale",
+    employmentType: "Internship",
+    duration: "Dec 2023 - Feb 2024 · 3 mos",
+    location: "Remote",
+    description: [
+      "Contributed to building robust applications using React and Firebase emphasizing RESTful architecture efficient CRUD operations for seamless user experiences",
+      "Implemented Advanced State Management throughout various web applications using Redux and Zustand",
+      "Implemented secure payment gateways to facilitate smooth transactions via PhonePe Payment Gateway",
+      "Integrated various APIs to enhance functionality and streamline processes",
+      "Collaborated within a multidisciplinary team to ensure adherence to ACID principles, ensuring data integrity and scalability while implementing Version Control with Git for effective collaboration"
+    ],
+    skills: ["Firebase", "Zustand", "Google Cloud", "Redux", "Cloud Firestore", "Git", "REST APIs", "API Testing", "API Development", "Node.js", "Software Development", "Payment Gateways", "SQL", "Web Technologies", "Full-Stack Development", "Analytical Skills", "React"]
+  }
+];
+
+export { projectDataSet, achievementData, certificationData, workExperienceData };
