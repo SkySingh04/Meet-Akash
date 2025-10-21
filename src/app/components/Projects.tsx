@@ -29,7 +29,7 @@ const Projects = () => {
     <div>
       <div
         id="Projects"
-        className="page-section text-base px-6 my-5 py-10 section-bg"
+        className="page-section text-base px-6 my-5 py-10 "
         data-aos="fade-up"
       >
         <div className="section-title">

@@ -13,7 +13,7 @@ const Recommendations = () => {
 
   return (
     <div
-      className="page-section text-base px-5 sm:justify-center section-bg"
+      className="page-section text-base px-5 py-2 sm:justify-center text-white"
       id="Recommendations"
       data-aos="fade-up"
     >

@@ -2,9 +2,8 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDev, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faCodepen } from "@fortawesome/free-brands-svg-icons";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
 import Contact from "./Contact";
 
 const Navbar = () => {
@@ -76,16 +75,6 @@ const Navbar = () => {
           </a>
           <a
             className="btn btn-ghost normal-case text-xl"
-            href="https://instagram.com/kind.of.akash"
-          >
-            <FontAwesomeIcon
-              icon={faInstagram}
-              className="fas fa-check"
-              style={{ color: "grey", fontSize: 25 }}
-            />
-          </a>
-          <a
-            className="btn btn-ghost normal-case text-xl"
             href="https://x.com/SkySingh04"
           >
             <FontAwesomeIcon
@@ -94,7 +83,7 @@ const Navbar = () => {
               style={{ color: "grey", fontSize: 25 }}
             />
           </a>
-          <a 
+          <a
             className="btn btn-ghost normal-case text-xl"
             href="https://dev.to/skysingh04"
           >
@@ -106,10 +95,10 @@ const Navbar = () => {
             </a>
           <a
             className="btn btn-ghost normal-case text-xl"
-            href="https://leetcode.com/u/skysingh04/"
+            href="https://linktr.ee/SkySingh04"
           >
             <FontAwesomeIcon
-              icon={faCodepen}
+              icon={faLink}
               className="fas fa-check"
               style={{ color: "grey", fontSize: 25 }}
             />
@@ -158,18 +147,6 @@ const Navbar = () => {
             <li>
               <a
                 className="btn btn-ghost normal-case text-xl"
-                href="https://instagram.com/kind.of.akash"
-              >
-                <FontAwesomeIcon
-                  icon={faInstagram}
-                  className="fas fa-check"
-                  style={{ color: "grey", fontSize: 25 }}
-                />
-              </a>{" "}
-            </li>
-            <li>
-              <a
-                className="btn btn-ghost normal-case text-xl"
                 href="https://x.com/SkySingh04"
               >
                 <FontAwesomeIcon
@@ -194,10 +171,10 @@ const Navbar = () => {
             <li>
               <a
                 className="btn btn-ghost normal-case text-xl"
-                href="https://leetcode.com/u/skysingh04/"
+                href="https://linktr.ee/SkySingh04"
               >
                 <FontAwesomeIcon
-                  icon={faCodepen}
+                  icon={faLink}
                   className="fas fa-check"
                   style={{ color: "grey", fontSize: 25 }}
                 />
