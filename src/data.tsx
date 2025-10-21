@@ -367,7 +367,7 @@ const certificationData: Certification[] = [
     organization: "The Linux Foundation",
     date: "October 2025",
     expiryDate: "October 2027",
-    credentialUrl: "https://www.credly.com/badges/your-kcna-badge",
+    credentialUrl: "https://www.linkedin.com/in/skysingh04/details/certifications/",
     skills: ["Kubernetes"],
   },
   {
@@ -380,7 +380,7 @@ const certificationData: Certification[] = [
     title: "CloudSEK External Threat Monitoring Solutions",
     organization: "CloudSEK",
     date: "September 2024",
-    credentialUrl: "https://www.cloudsek.com/certifications",
+    credentialUrl: "https://www.linkedin.com/in/skysingh04/details/certifications/",
     skills: ["Cybersecurity", "Threat & Vulnerability Management"],
   },
   {
@@ -388,7 +388,7 @@ const certificationData: Certification[] = [
     organization: "Udemy",
     date: "April 2023",
     credentialId: "UC-2f7e34d5-d73f-44bd-886c-4ae2fb354b88",
-    credentialUrl: "https://www.udemy.com/certificate/UC-2f7e34d5-d73f-44bd-886c-4ae2fb354b88/",
+    credentialUrl: "https://www.linkedin.com/in/skysingh04/details/certifications/",
     skills: ["Web Development"],
   },
   {
@@ -396,14 +396,14 @@ const certificationData: Certification[] = [
     organization: "Udemy",
     date: "October 2022",
     credentialId: "UC-2abd81b2-c85a-43aa-8d37-ebac4749a612",
-    credentialUrl: "https://www.udemy.com/certificate/UC-2abd81b2-c85a-43aa-8d37-ebac4749a612/",
+    credentialUrl: "https://www.linkedin.com/in/skysingh04/details/certifications/",
   },
   {
     title: "Automate The Boring Stuff With Python",
     organization: "Udemy",
     date: "October 2022",
     credentialId: "UC-48d68e04-cbf5-4485-8dd6-e6fe8b35aa91",
-    credentialUrl: "https://www.udemy.com/certificate/UC-48d68e04-cbf5-4485-8dd6-e6fe8b35aa91/",
+    credentialUrl: "https://www.linkedin.com/in/skysingh04/details/certifications/",
   },
 ];
 
