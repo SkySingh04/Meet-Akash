@@ -8,6 +8,7 @@ import Achievements from "./components/Achievements";
 import Certifications from "./components/Certifications";
 import Recommendations from "./components/Recommendations";
 import Volunteering from "./components/Volunteering";
+// import Talks from "./components/Talks";
 import Footer from "./components/Footer";
 export default function HomePage() {
   return (
@@ -15,13 +16,14 @@ export default function HomePage() {
       <Navbar />
       <Hero />
       <About />
-      <Skills />
       <NewExperience />
-      <Projects />
-      <Achievements />
       <Recommendations />
       {/* <OpenSource /> */}
       <Certifications />
+      {/* <Talks /> */}
+      <Skills />
+      <Projects />
+      <Achievements />
       <Volunteering />
       <Footer />
     </div>

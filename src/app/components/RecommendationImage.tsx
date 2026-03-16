@@ -15,7 +15,7 @@ const RecommendationImage: React.FC<RecommendationImageProps> = ({
   height = 1000
 }) => {
   return (
-    <div className="w-full mb-4">
+    <div className="w-full">
       <Image
         src={src}
         alt={alt}

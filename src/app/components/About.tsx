@@ -13,7 +13,7 @@ const About = () => {
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mb-4">
             <h2 className="other-header">About</h2>
             <a
-              href="https://drive.google.com/file/d/1OB79ihJMqT9xPfIS0c5Tu6rQ_93hWvax/view?usp=sharing"
+              href="https://drive.google.com/file/d/1639B1KxEWcLc_OkatTKASkgW9HzBmvjE/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-amber-600 hover:bg-amber-700 text-white font-semibold py-2 px-6 rounded-lg transition-colors duration-300 flex items-center gap-2"

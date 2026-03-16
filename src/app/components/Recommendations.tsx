@@ -9,6 +9,7 @@ const Recommendations = () => {
     { src: '/recommendation-4.png', alt: 'Recommendation 4', width: 887, height: 418 },
     { src: '/recommendation-5.png', alt: 'Recommendation 5', width: 889, height: 442 },
     { src: '/recommendation-6.png', alt: 'Recommendation 6', width: 889, height: 442 },
+    { src: '/recommendation-7.png', alt: 'Recommendation 7', width: 889, height: 442 },
   ];
 
   return (

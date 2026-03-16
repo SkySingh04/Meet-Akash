@@ -14,6 +14,22 @@ type Certification = {
   skills?: string[];
 };
 
+type Talk = {
+  id: string;
+  title: string;
+  eventName: string;
+  location: string;
+  date: string;
+  description: string;
+  talkImage: string;
+  links: {
+    slides?: string;
+    video?: string;
+    eventPage?: string;
+  };
+  skills?: string[];
+};
+
 type WorkExperience = {
   title: string;
   company: string;
@@ -26,6 +42,19 @@ type WorkExperience = {
 
 
 const projectDataSet = {
+  "OAAS": {
+    id: "OAAS",
+    name: "OAAS : Obfuscation As A Service",
+    imgSrc: "/portfolio-oaas-1.png",
+    githubLink: "",
+    description: `Winners of Smart India Hackathon 2025 - India's Biggest Hackathon and the World's Largest Open Innovation Model. Built a 5-layer MLIR + LLVM compiler pipeline for obfuscation of C/C++ binaries. The system takes source code as input and produces output binaries that are extremely hard to reverse engineer. The pipeline leverages MLIR's multi-level intermediate representation combined with LLVM's optimization infrastructure to apply layered obfuscation passes including control flow flattening, opaque predicates, instruction substitution, string encryption and code virtualization.`,
+    techStack: "LLVM, MLIR, C++, Compilers, Python",
+    domain: "Compilers, Systems Programming",
+    youtubeLink: null,
+    projectlink: "https://oaas.pointblank.club/",
+    projectdate: "15.12.2025",
+    keywords: ["Compilers", "LLVM", "Systems Programming"],
+  },
   "DreamOps": {
     id: "DreamOps",
     name: "DreamOps",
@@ -249,6 +278,11 @@ Haalsamachar IAC : Contains Terraform scripts, Kubernetes manifests, and GitOps 
 
 const achievementData: Achievement[] = [
   {
+    title: "Winners at Smart India Hackathon 2025 - India's Biggest Hackathon",
+    organization: "NTRO & IIT Jammu",
+    date: "December 2025",
+  },
+  {
     title: "Top 6 Position at Segfault 2025 - India's Biggest Compiler Hackathon",
     organization: "Innovations In Compiler Technology Workshop",
     date: "September 2025",
@@ -363,6 +397,23 @@ const achievementData: Achievement[] = [
 
 const certificationData: Certification[] = [
   {
+    title: "CKA: Certified Kubernetes Administrator",
+    organization: "The Linux Foundation",
+    date: "March 2026",
+    credentialId: "LF-fau5ol8u7i",
+    credentialUrl: "https://www.credly.com/badges/3b9a90d4-7882-4b6d-896e-2cebdc1cbab0/public_url",
+    skills: ["Kubernetes"],
+  },
+  {
+    title: "KCSA: Kubernetes and Cloud Native Security Associate",
+    organization: "The Linux Foundation",
+    date: "January 2026",
+    expiryDate: "January 2028",
+    credentialId: "LF-foargbc1q3",
+    credentialUrl: "https://www.credly.com/badges/b33fbab6-9952-4e4e-bbb6-edf1c8215e14/public_url",
+    skills: ["Kubernetes", "Cybersecurity"],
+  },
+  {
     title: "KCNA: Kubernetes and Cloud Native Associate",
     organization: "The Linux Foundation",
     date: "October 2025",
@@ -374,6 +425,7 @@ const certificationData: Certification[] = [
     title: "ACM Winter School 2024 on Data Structures and Algorithms for Strings",
     organization: "ACM",
     date: "December 2024",
+    credentialUrl: "https://www.linkedin.com/in/skysingh04/details/certifications/1735046317407/single-media-viewer/?profileId=ACoAAD57BKMBQzryaT68XVOOZuDcpVBBayHGg1U",
     skills: ["Data Structures", "Algorithms", "String Manipulation", "Computational Biology", "Search Engines"],
   },
   {
@@ -553,4 +605,6 @@ const workExperienceData: WorkExperience[] = [
   }
 ];
 
-export { projectDataSet, achievementData, certificationData, workExperienceData };
+const talkData: Talk[] = [];
+
+export { projectDataSet, achievementData, certificationData, workExperienceData, talkData };
