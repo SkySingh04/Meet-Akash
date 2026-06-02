@@ -397,9 +397,27 @@ const achievementData: Achievement[] = [
 
 const certificationData: Certification[] = [
   {
+    title: "CKS: Certified Kubernetes Security Specialist",
+    organization: "The Linux Foundation",
+    date: "May 2026",
+    expiryDate: "May 2028",
+    credentialId: "LF-s560s3stxc",
+    credentialUrl: "https://www.linkedin.com/in/skysingh04/details/certifications/",
+    skills: ["Kubernetes", "Cybersecurity"],
+  },
+  {
+    title: "CKAD: Certified Kubernetes Application Developer",
+    organization: "The Linux Foundation",
+    date: "March 2026",
+    credentialId: "LF-n1xuokx281",
+    credentialUrl: "https://www.linkedin.com/in/skysingh04/details/certifications/",
+    skills: ["Kubernetes"],
+  },
+  {
     title: "CKA: Certified Kubernetes Administrator",
     organization: "The Linux Foundation",
     date: "March 2026",
+    expiryDate: "January 2028",
     credentialId: "LF-fau5ol8u7i",
     credentialUrl: "https://www.credly.com/badges/3b9a90d4-7882-4b6d-896e-2cebdc1cbab0/public_url",
     skills: ["Kubernetes"],
@@ -605,6 +623,61 @@ const workExperienceData: WorkExperience[] = [
   }
 ];
 
-const talkData: Talk[] = [];
+const talkData: Talk[] = [
+  {
+    id: "fossasia-2026",
+    title: "Reducing AWS Glue Bills by 25x Using Airflow",
+    eventName: "FOSSASIA Summit 2026",
+    location: "Bangkok, Thailand",
+    date: "May 2026",
+    description:
+      "Delivered my first international talk alongside Pratik Singh on how we slashed AWS Glue costs from $10,000/month to $400/month across 80 ETL pipelines - a 96% cost reduction - by migrating to Apache Airflow on EKS. Walked the audience through the migration runbook, connector strategy, and how Airflow's flexibility helps teams escape vendor lock-in.",
+    talkImage: "https://img.youtube.com/vi/gFc2CUMsE68/maxresdefault.jpg",
+    links: {
+      video: "https://www.youtube.com/watch?v=gFc2CUMsE68&list=PLhDShq0cRQsjIM2qlKwqwP3LCAHbPDYhP&index=1&t=322s",
+    },
+    skills: ["Apache Airflow", "AWS", "EKS", "Kubernetes", "ETL", "DevOps", "Cost Optimization"],
+  },
+  {
+    id: "switch-singapore",
+    title: "LUMi: AI Concierge for Customer Satisfaction",
+    eventName: "SWITCH Singapore",
+    location: "Marina Bay Sands, Singapore",
+    date: "October 2024",
+    description:
+      "Led the pitch and product demo for LUMi, an AI Concierge solution focused on improving customer satisfaction, at SWITCH held at Marina Bay Sands. Presented to a global audience of investors and innovators as part of the Hackglobal Finals journey.",
+    talkImage: "https://img.youtube.com/vi/NkhH8TGxNJg/maxresdefault.jpg",
+    links: {
+      video: "https://www.youtube.com/watch?v=NkhH8TGxNJg&list=PLhDShq0cRQsjIM2qlKwqwP3LCAHbPDYhP&index=2&t=86s",
+    },
+    skills: ["AI Agents", "Public Speaking", "Product Pitching", "Customer Experience"],
+  },
+  {
+    id: "pointblank-2000-students",
+    title: "Point Blank: Building India's Largest Student Open Source Community",
+    eventName: "Point Blank Showcase",
+    location: "Bengaluru, India",
+    date: "August 2025",
+    description:
+      "Spoke in front of 2000+ students about Point Blank - the open source community I lead - covering our culture of technical excellence, how we mentor juniors, the projects we've built together, and why student-run communities matter for the Indian developer ecosystem.",
+    talkImage: "https://img.youtube.com/vi/Y2MFMXNhtdA/maxresdefault.jpg",
+    links: {
+      video: "https://youtu.be/Y2MFMXNhtdA",
+    },
+    skills: ["Public Speaking", "Open Source", "Community Building", "Mentorship"],
+  },
+  {
+    id: "pes-noether-week-2026",
+    title: "DevOps Tooling & Infrastructure Workshop",
+    eventName: "Noether Week 2026 - IEEE Computer Society PES University",
+    location: "PES University, Bengaluru",
+    date: "May 2026",
+    description:
+      "Ran a hands-on workshop with co-speaker Dhruv Puri covering the building blocks every modern engineer needs: Linux fundamentals, Git workflows, version control strategies, CI/CD pipelines, containerization with Docker, cloud-native infrastructure, and DevOps culture. Emphasized first-principles problem-solving over AI-driven coding for foundational skills.",
+    talkImage: "/talk-pes-noether-week.jpeg",
+    links: {},
+    skills: ["DevOps", "Linux", "Git", "Docker", "CI/CD", "Cloud Native", "Teaching"],
+  },
+];
 
 export { projectDataSet, achievementData, certificationData, workExperienceData, talkData };
