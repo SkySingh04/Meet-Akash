@@ -36,7 +36,7 @@ const Talks: React.FC = () => {
   return (
     <div
       id="Talks"
-      className="page-section text-base p-5 text-white"
+      className="page-section section-bg text-base p-5 text-white"
       data-aos="fade-up"
     >
       <div className="section-title">
