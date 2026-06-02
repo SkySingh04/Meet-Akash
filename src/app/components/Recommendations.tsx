@@ -14,7 +14,7 @@ const Recommendations = () => {
 
   return (
     <div
-      className="page-section text-base px-5 py-2 sm:justify-center text-white"
+      className="page-section section-bg text-base px-5 py-2 sm:justify-center text-white"
       id="Recommendations"
       data-aos="fade-up"
     >

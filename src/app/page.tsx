@@ -8,7 +8,7 @@ import Achievements from "./components/Achievements";
 import Certifications from "./components/Certifications";
 import Recommendations from "./components/Recommendations";
 import Volunteering from "./components/Volunteering";
-// import Talks from "./components/Talks";
+import Talks from "./components/Talks";
 import Footer from "./components/Footer";
 export default function HomePage() {
   return (
@@ -20,7 +20,7 @@ export default function HomePage() {
       <Recommendations />
       {/* <OpenSource /> */}
       <Certifications />
-      {/* <Talks /> */}
+      <Talks />
       <Skills />
       <Projects />
       <Achievements />

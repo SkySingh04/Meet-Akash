@@ -1,9 +1,6 @@
 'use client'
 import React, { useState } from 'react';
 import Image from 'next/image';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faExternalLinkAlt, faFileAlt, faMapMarkerAlt, faCalendarAlt } from '@fortawesome/free-solid-svg-icons';
-import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 type Talk = {
   id: string;
@@ -20,6 +17,48 @@ type Talk = {
   };
   skills?: string[];
 };
+
+const Icon: React.FC<{ children: React.ReactNode; label: string }> = ({ children, label }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="currentColor"
+    aria-label={label}
+    className="w-3 h-3 inline-block"
+  >
+    {children}
+  </svg>
+);
+
+const MapPinIcon = () => (
+  <Icon label="location">
+    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z" />
+  </Icon>
+);
+
+const CalendarIcon = () => (
+  <Icon label="date">
+    <path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2z" />
+  </Icon>
+);
+
+const VideoIcon = () => (
+  <Icon label="video">
+    <path d="M8 5v14l11-7z" />
+  </Icon>
+);
+
+const FileIcon = () => (
+  <Icon label="slides">
+    <path d="M6 2c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6H6zm7 7V3.5L18.5 9H13z" />
+  </Icon>
+);
+
+const ExternalLinkIcon = () => (
+  <Icon label="external link">
+    <path d="M14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7zM19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7z" />
+  </Icon>
+);
 
 const TalkCard: React.FC<{ talk: Talk }> = ({ talk }) => {
   const [hovered, setHovered] = useState(false);
@@ -54,12 +93,12 @@ const TalkCard: React.FC<{ talk: Talk }> = ({ talk }) => {
         <p className="text-sm text-gray-200 mb-1">{talk.eventName}</p>
 
         <div className="flex items-center gap-2 text-xs text-gray-300 mb-1">
-          <FontAwesomeIcon icon={faMapMarkerAlt} className="text-xs" />
+          <MapPinIcon />
           <span>{talk.location}</span>
         </div>
 
         <div className="flex items-center gap-2 text-xs text-gray-300 mb-2">
-          <FontAwesomeIcon icon={faCalendarAlt} className="text-xs" />
+          <CalendarIcon />
           <span>{talk.date}</span>
         </div>
 
@@ -86,7 +125,7 @@ const TalkCard: React.FC<{ talk: Talk }> = ({ talk }) => {
               rel="noopener noreferrer"
               className="text-xs text-amber-400 hover:text-amber-300 inline-flex items-center gap-1"
             >
-              <FontAwesomeIcon icon={faFileAlt} /> Slides
+              <FileIcon /> Slides
             </a>
           )}
           {talk.links.video && (
@@ -96,7 +135,7 @@ const TalkCard: React.FC<{ talk: Talk }> = ({ talk }) => {
               rel="noopener noreferrer"
               className="text-xs text-amber-400 hover:text-amber-300 inline-flex items-center gap-1"
             >
-              <FontAwesomeIcon icon={faYoutube} /> Video
+              <VideoIcon /> Video
             </a>
           )}
           {talk.links.eventPage && (
@@ -106,7 +145,7 @@ const TalkCard: React.FC<{ talk: Talk }> = ({ talk }) => {
               rel="noopener noreferrer"
               className="text-xs text-amber-400 hover:text-amber-300 inline-flex items-center gap-1"
             >
-              <FontAwesomeIcon icon={faExternalLinkAlt} /> Event
+              <ExternalLinkIcon /> Event
             </a>
           )}
         </div>

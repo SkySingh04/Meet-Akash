@@ -7,9 +7,15 @@ const nextConfig = {
                 hostname: 'i.ibb.co',
                 port: '',
                 pathname: '/',
+              },
+            {
+                protocol: 'https',
+                hostname: 'img.youtube.com',
+                port: '',
+                pathname: '/**',
               }
         ],
-        domains: ['i.ibb.co','cdn.jsdelivr.net'],
+        domains: ['i.ibb.co','cdn.jsdelivr.net','img.youtube.com'],
     },
 }
 
