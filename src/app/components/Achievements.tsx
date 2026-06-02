@@ -24,7 +24,7 @@ const Achievements: React.FC<AchievementProps> = ({ achievements }) => {
 const MyComponent: React.FC = () => {
   return (
 
-    <div id="Achievements" className="page-section section-bg text-base p-5 text-white" data-aos="fade-up">
+    <div id="Achievements" className="page-section text-base p-5 text-white" data-aos="fade-up">
       <div className="section-title">
         <h2 className="other-header">Achievements</h2>
       </div>

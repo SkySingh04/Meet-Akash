@@ -30,7 +30,7 @@ const WorkExperienceList: React.FC<WorkExperienceListProps> = ({ experiences }) 
 const NewExperience = () => {
   return (
     <div
-      className="page-section text-base px-5 py-2 sm:justify-center section-bg"
+      className="page-section text-base px-5 py-2 sm:justify-center"
       id="Experience"
       data-aos="fade-up"
     >
